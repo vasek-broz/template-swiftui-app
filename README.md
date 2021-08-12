@@ -1,1 +1,1 @@
-# template-swiftui-app
+# Template SwiftUI App
