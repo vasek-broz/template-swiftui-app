@@ -15,6 +15,8 @@
 		57273E4C26C539D00086A7DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* ContentView.swift */; };
 		57273E4D26C539D00086A7DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57273E2926C539D00086A7DF /* Assets.xcassets */; };
 		57273E4E26C539D00086A7DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57273E2926C539D00086A7DF /* Assets.xcassets */; };
+		579ECB2A26C549F5004D006A /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 579ECB2926C549F5004D006A /* Swinject */; };
+		579ECB2D26C54A03004D006A /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 579ECB2C26C54A03004D006A /* Swinject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579ECB2A26C549F5004D006A /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579ECB2D26C54A03004D006A /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +85,11 @@
 		57273E2126C539A00086A7DF = {
 			isa = PBXGroup;
 			children = (
-				57273E2F26C539D00086A7DF /* Products */,
-				57273E5E26C53A930086A7DF /* Resources */,
 				57273E5F26C53A9B0086A7DF /* Sources */,
+				57273E5E26C53A930086A7DF /* Resources */,
 				57273E5D26C53A8D0086A7DF /* Tests */,
+				57273E2F26C539D00086A7DF /* Products */,
+				579ECB2B26C54A03004D006A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,6 +186,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		579ECB2B26C54A03004D006A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -197,6 +209,9 @@
 			dependencies = (
 			);
 			name = "Template SwiftUI App (iOS)";
+			packageProductDependencies = (
+				579ECB2926C549F5004D006A /* Swinject */,
+			);
 			productName = "Template SwiftUI App (iOS)";
 			productReference = 57273E2E26C539D00086A7DF /* Template SwiftUI App.app */;
 			productType = "com.apple.product-type.application";
@@ -214,6 +229,9 @@
 			dependencies = (
 			);
 			name = "Template SwiftUI App (macOS)";
+			packageProductDependencies = (
+				579ECB2C26C54A03004D006A /* Swinject */,
+			);
 			productName = "Template SwiftUI App (macOS)";
 			productReference = 57273E3426C539D00086A7DF /* Template SwiftUI App.app */;
 			productType = "com.apple.product-type.application";
@@ -289,6 +307,9 @@
 				Base,
 			);
 			mainGroup = 57273E2126C539A00086A7DF;
+			packageReferences = (
+				579ECB2826C549F5004D006A /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = 57273E2F26C539D00086A7DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -765,6 +786,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		579ECB2826C549F5004D006A /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		579ECB2926C549F5004D006A /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 579ECB2826C549F5004D006A /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		579ECB2C26C54A03004D006A /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 579ECB2826C549F5004D006A /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 57273E2226C539A00086A7DF /* Project object */;
 }
