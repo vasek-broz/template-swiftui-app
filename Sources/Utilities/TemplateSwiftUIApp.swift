@@ -8,9 +8,12 @@ import Swinject
 struct TemplateSwiftUIApp: App {
     var body: some Scene {
         let assembler = Assembler()
-        assembler.apply(assembly: DefaultTemplateAssembly())
+        assembler.apply(assemblies: [AppAssembly(), DefaultTemplateAssembly()])
+        let templateView = assembler.resolver.resolve(TemplateView.self, argument: assembler)!
         return WindowGroup {
-            assembler.resolver.resolve(TemplateView.self)!
+            templateView
+                .environmentObject(assembler.resolver.resolve(AppState.self)!)
+                .environmentObject(assembler.resolver.resolve(RoutingFlags.self)!)
         }
     }
 }

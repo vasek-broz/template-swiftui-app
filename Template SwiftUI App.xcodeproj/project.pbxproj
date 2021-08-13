@@ -29,6 +29,8 @@
 		57F4EC0A26C6DC5A00C2214D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0626C6DC5A00C2214D /* Colors.xcassets */; };
 		57F4EC0D26C6DD4E00C2214D /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 57F4EC0C26C6DD4E00C2214D /* SwinjectAutoregistration */; };
 		57F4EC0F26C6DD5500C2214D /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 57F4EC0E26C6DD5500C2214D /* SwinjectAutoregistration */; };
+		57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */; };
+		57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */; };
 		57F7023026C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */; };
 		57F7023126C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */; };
 		57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023326C54BAE00583D47 /* TemplateState.swift */; };
@@ -74,6 +76,7 @@
 		57ED1D6626C55787002964F9 /* PreviewAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAssembler.swift; sourceTree = "<group>"; };
 		57F4EC0526C6DC5A00C2214D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57F4EC0626C6DC5A00C2214D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTemplateInteractor.swift; sourceTree = "<group>"; };
 		57F7023326C54BAE00583D47 /* TemplateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateState.swift; sourceTree = "<group>"; };
 		57F7023726C54BCF00583D47 /* DefaultTemplateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTemplateRouter.swift; sourceTree = "<group>"; };
@@ -198,6 +201,7 @@
 				57ED1D6626C55787002964F9 /* PreviewAssembler.swift */,
 				57D19C1A26C65EE3009BF80F /* AppState.swift */,
 				57D19C1D26C65FD3009BF80F /* RoutingFlags.swift */,
+				57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -433,6 +437,7 @@
 				57F7023826C54BCF00583D47 /* DefaultTemplateRouter.swift in Sources */,
 				57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
+				57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */,
 				57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57F7023026C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */,
 				57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */,
@@ -452,6 +457,7 @@
 				57F7023926C54BCF00583D47 /* DefaultTemplateRouter.swift in Sources */,
 				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
+				57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */,
 				57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57F7023126C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */,
 				57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */,
