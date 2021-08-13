@@ -3,14 +3,23 @@
 
 import SwiftUI
 
+// MARK: - View -
 struct TemplateView: View {
+    let interactor: TemplateInteractable
+    let router: TemplateRoutable
+    @StateObject var state: TemplateState
+    
     var body: some View {
         EmptyView()
     }
 }
 
+// MARK: - PreviewProvider -
+#if DEBUG
 struct TemplateViewPreviewProvider: PreviewProvider {
     static var previews: some View {
-        TemplateView()
+        previewAssembler.apply(assembly: DefaultTemplateAssembly())
+        return previewAssembler.resolver.resolve(TemplateView.self)!
     }
 }
+#endif
