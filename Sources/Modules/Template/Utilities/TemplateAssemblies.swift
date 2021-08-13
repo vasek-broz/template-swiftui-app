@@ -15,7 +15,7 @@ struct DefaultTemplateAssembly: Assembly {
         }
 
         container.register(TemplateInteractable.self) { _, templateState in
-            TemplateInteractor(state: templateState)
+            DefaultTemplateInteractor(state: templateState)
         }
         
         container.register(TemplateState.self) { _ in
@@ -23,7 +23,30 @@ struct DefaultTemplateAssembly: Assembly {
         }
 
         container.register(TemplateRoutable.self) { _ in
-            TemplateRouter()
+            DefaultTemplateRouter()
+        }
+    }
+}
+
+// MARK: - Preview -
+struct PreviewTemplateAssembly: Assembly {
+    func assemble(container: Container) {
+        container.register(TemplateView.self) { resolver in
+            return TemplateView(interactor: resolver.resolve(TemplateInteractable.self)!,
+                                router: resolver.resolve(TemplateRoutable.self)!,
+                                state: resolver.resolve(TemplateState.self)!)
+        }
+
+        container.register(TemplateInteractable.self) { _ in
+            PreviewTemplateInteractor()
+        }
+        
+        container.register(TemplateState.self) { _ in
+            TemplateState()
+        }
+
+        container.register(TemplateRoutable.self) { _ in
+            PreviewTemplateRouter()
         }
     }
 }

@@ -1,7 +1,7 @@
-//  TemplateInteractor.swift
+//  DefaultTemplateInteractor.swift
 //  Created by Václav Brož on 12/8/2021
 
-struct TemplateInteractor: TemplateInteractable {
+struct DefaultTemplateInteractor: TemplateInteractable {
     // MARK: - Properties -
     private let state: TemplateState
     

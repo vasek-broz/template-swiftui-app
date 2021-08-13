@@ -20,7 +20,7 @@ struct TemplateView: View {
 #if DEBUG
 struct TemplateViewPreviewProvider: PreviewProvider {
     static var previews: some View {
-        previewAssembler.apply(assembly: DefaultTemplateAssembly())
+        previewAssembler.apply(assembly: PreviewTemplateAssembly())
         return previewAssembler.resolver.resolve(TemplateView.self)!
     }
 }
