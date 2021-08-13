@@ -17,6 +17,8 @@
 		57273E4E26C539D00086A7DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57273E2926C539D00086A7DF /* Assets.xcassets */; };
 		579ECB2A26C549F5004D006A /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 579ECB2926C549F5004D006A /* Swinject */; };
 		579ECB2D26C54A03004D006A /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 579ECB2C26C54A03004D006A /* Swinject */; };
+		57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED1D6626C55787002964F9 /* PreviewAssembler.swift */; };
+		57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED1D6626C55787002964F9 /* PreviewAssembler.swift */; };
 		57F7023026C54B8B00583D47 /* TemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */; };
 		57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */; };
 		57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023326C54BAE00583D47 /* TemplateState.swift */; };
@@ -56,6 +58,7 @@
 		57273E3D26C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
 		57273E4326C539D00086A7DF /* Tests (macOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests (macOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57273E4726C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
+		57ED1D6626C55787002964F9 /* PreviewAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAssembler.swift; sourceTree = "<group>"; };
 		57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateInteractor.swift; sourceTree = "<group>"; };
 		57F7023326C54BAE00583D47 /* TemplateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateState.swift; sourceTree = "<group>"; };
 		57F7023726C54BCF00583D47 /* TemplateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateRouter.swift; sourceTree = "<group>"; };
@@ -176,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */,
+				57ED1D6626C55787002964F9 /* PreviewAssembler.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -405,6 +409,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F7023826C54BCF00583D47 /* TemplateRouter.swift in Sources */,
+				57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57F7023026C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
 				57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */,
@@ -419,6 +424,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F7023926C54BCF00583D47 /* TemplateRouter.swift in Sources */,
+				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
 				57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */,
