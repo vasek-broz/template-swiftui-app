@@ -160,19 +160,19 @@
 			children = (
 				57273E6226C53B6D0086A7DF /* Entities */,
 				57273E6326C53B7C0086A7DF /* Fetchers */,
-				57273E6026C53B3A0086A7DF /* Screens */,
+				57273E6026C53B3A0086A7DF /* Modules */,
 				57273E6126C53B410086A7DF /* Utilities */,
 				57273E6426C53B970086A7DF /* Views */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		57273E6026C53B3A0086A7DF /* Screens */ = {
+		57273E6026C53B3A0086A7DF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				579ECB2726C54820004D006A /* Template */,
 			);
-			path = Screens;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		57273E6126C53B410086A7DF /* Utilities */ = {
