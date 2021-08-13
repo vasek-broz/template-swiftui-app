@@ -7,7 +7,7 @@ import SwiftUI
 struct TemplateView: View {
     let interactor: TemplateInteractable
     let router: TemplateRoutable
-    @StateObject var state: TemplateState
+    @ObservedObject var state: TemplateState
     @EnvironmentObject var appState: AppState
     @EnvironmentObject var routingFlags: RoutingFlags
     
