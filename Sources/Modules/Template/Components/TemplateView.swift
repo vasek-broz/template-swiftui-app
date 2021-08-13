@@ -20,8 +20,11 @@ struct TemplateView: View {
 #if DEBUG
 struct TemplateViewPreviewProvider: PreviewProvider {
     static var previews: some View {
-        previewAssembler.apply(assembly: PreviewTemplateAssembly())
-        return previewAssembler.resolver.resolve(TemplateView.self)!
+        previewAssembler.apply(assemblies: [PreviewTemplateAssembly(), AppAssembly()])
+        let templateView = previewAssembler.resolver.resolve(TemplateView.self)!
+        return templateView
+            .environmentObject(previewAssembler.resolver.resolve(AppState.self)!)
+            .environmentObject(previewAssembler.resolver.resolve(RoutingFlags.self)!)
     }
 }
 #endif
