@@ -3,7 +3,7 @@
 
 struct TemplateInteractor: TemplateInteractable {
     // MARK: - Properties -
-    private unowned let state: TemplateState
+    private let state: TemplateState
     
     // MARK: - Initialiazer -
     init(state: TemplateState) {
