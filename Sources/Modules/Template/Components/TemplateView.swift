@@ -8,6 +8,8 @@ struct TemplateView: View {
     let interactor: TemplateInteractable
     let router: TemplateRoutable
     @StateObject var state: TemplateState
+    @EnvironmentObject var appState: AppState
+    @EnvironmentObject var routingFlags: RoutingFlags
     
     var body: some View {
         EmptyView()

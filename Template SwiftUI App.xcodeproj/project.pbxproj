@@ -17,6 +17,10 @@
 		57273E4E26C539D00086A7DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57273E2926C539D00086A7DF /* Assets.xcassets */; };
 		579ECB2A26C549F5004D006A /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 579ECB2926C549F5004D006A /* Swinject */; };
 		579ECB2D26C54A03004D006A /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 579ECB2C26C54A03004D006A /* Swinject */; };
+		57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
+		57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
+		57D19C1E26C65FD3009BF80F /* RoutingFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1D26C65FD3009BF80F /* RoutingFlags.swift */; };
+		57D19C1F26C65FD3009BF80F /* RoutingFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1D26C65FD3009BF80F /* RoutingFlags.swift */; };
 		57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED1D6626C55787002964F9 /* PreviewAssembler.swift */; };
 		57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED1D6626C55787002964F9 /* PreviewAssembler.swift */; };
 		57F7023026C54B8B00583D47 /* TemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */; };
@@ -58,6 +62,8 @@
 		57273E3D26C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
 		57273E4326C539D00086A7DF /* Tests (macOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests (macOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57273E4726C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
+		57D19C1A26C65EE3009BF80F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		57D19C1D26C65FD3009BF80F /* RoutingFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingFlags.swift; sourceTree = "<group>"; };
 		57ED1D6626C55787002964F9 /* PreviewAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAssembler.swift; sourceTree = "<group>"; };
 		57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateInteractor.swift; sourceTree = "<group>"; };
 		57F7023326C54BAE00583D47 /* TemplateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateState.swift; sourceTree = "<group>"; };
@@ -180,6 +186,8 @@
 			children = (
 				57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */,
 				57ED1D6626C55787002964F9 /* PreviewAssembler.swift */,
+				57D19C1A26C65EE3009BF80F /* AppState.swift */,
+				57D19C1D26C65FD3009BF80F /* RoutingFlags.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -415,6 +423,8 @@
 				57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
 				57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
+				57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */,
+				57D19C1E26C65FD3009BF80F /* RoutingFlags.swift in Sources */,
 				57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +440,8 @@
 				57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
 				57F7023F26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
+				57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */,
+				57D19C1F26C65FD3009BF80F /* RoutingFlags.swift in Sources */,
 				57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
