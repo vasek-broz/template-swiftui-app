@@ -2,7 +2,6 @@
 //  Created by Václav Brož on 12/8/2021
 
 import Swinject
-import SwinjectAutoregistration
 
 // MARK: - Default -
 struct DefaultTemplateAssembly: Assembly {
@@ -14,7 +13,11 @@ struct DefaultTemplateAssembly: Assembly {
                          state: resolver.resolve(TemplateState.self)!)
         }
         
-        container.autoregister(TemplateInteractable.self, initializer: DefaultTemplateInteractor.init)
+        container.register(TemplateInteractable.self) { resolver in
+            DefaultTemplateInteractor(state: resolver.resolve(TemplateState.self)!,
+                                      appState: resolver.resolve(AppState.self)!,
+                                      routingFlags: resolver.resolve(RoutingFlags.self)!)
+        }
         
         container.register(TemplateState.self) { _ in
             TemplateState()

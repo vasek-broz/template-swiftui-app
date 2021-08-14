@@ -13,6 +13,8 @@
 		57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */; };
 		57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* TemplateView.swift */; };
 		57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* TemplateView.swift */; };
+		5790873926C7A2C8007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873826C7A2C8007AB751 /* Swinject */; };
+		5790873B26C7A2D7007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873A26C7A2D7007AB751 /* Swinject */; };
 		57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C1E26C65FD3009BF80F /* RoutingFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1D26C65FD3009BF80F /* RoutingFlags.swift */; };
@@ -27,8 +29,6 @@
 		57F4EC0826C6DC5A00C2214D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0526C6DC5A00C2214D /* Images.xcassets */; };
 		57F4EC0926C6DC5A00C2214D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0626C6DC5A00C2214D /* Colors.xcassets */; };
 		57F4EC0A26C6DC5A00C2214D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0626C6DC5A00C2214D /* Colors.xcassets */; };
-		57F4EC0D26C6DD4E00C2214D /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 57F4EC0C26C6DD4E00C2214D /* SwinjectAutoregistration */; };
-		57F4EC0F26C6DD5500C2214D /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = 57F4EC0E26C6DD5500C2214D /* SwinjectAutoregistration */; };
 		57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */; };
 		57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */; };
 		57F7023026C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */; };
@@ -89,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F4EC0D26C6DD4E00C2214D /* SwinjectAutoregistration in Frameworks */,
+				5790873926C7A2C8007AB751 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F4EC0F26C6DD5500C2214D /* SwinjectAutoregistration in Frameworks */,
+				5790873B26C7A2D7007AB751 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +282,7 @@
 			);
 			name = "Template SwiftUI App (iOS)";
 			packageProductDependencies = (
-				57F4EC0C26C6DD4E00C2214D /* SwinjectAutoregistration */,
+				5790873826C7A2C8007AB751 /* Swinject */,
 			);
 			productName = "Template SwiftUI App (iOS)";
 			productReference = 57273E2E26C539D00086A7DF /* Template SwiftUI App.app */;
@@ -302,7 +302,7 @@
 			);
 			name = "Template SwiftUI App (macOS)";
 			packageProductDependencies = (
-				57F4EC0E26C6DD5500C2214D /* SwinjectAutoregistration */,
+				5790873A26C7A2D7007AB751 /* Swinject */,
 			);
 			productName = "Template SwiftUI App (macOS)";
 			productReference = 57273E3426C539D00086A7DF /* Template SwiftUI App.app */;
@@ -380,7 +380,7 @@
 			);
 			mainGroup = 57273E2126C539A00086A7DF;
 			packageReferences = (
-				57F4EC0B26C6DD4E00C2214D /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */,
+				5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			productRefGroup = 57273E2F26C539D00086A7DF /* Products */;
 			projectDirPath = "";
@@ -884,9 +884,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		57F4EC0B26C6DD4E00C2214D /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */ = {
+		5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Swinject/SwinjectAutoregistration";
+			repositoryURL = "https://github.com/Swinject/Swinject";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 2.0.0;
@@ -895,15 +895,15 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		57F4EC0C26C6DD4E00C2214D /* SwinjectAutoregistration */ = {
+		5790873826C7A2C8007AB751 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 57F4EC0B26C6DD4E00C2214D /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
-			productName = SwinjectAutoregistration;
+			package = 5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
 		};
-		57F4EC0E26C6DD5500C2214D /* SwinjectAutoregistration */ = {
+		5790873A26C7A2D7007AB751 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 57F4EC0B26C6DD4E00C2214D /* XCRemoteSwiftPackageReference "SwinjectAutoregistration" */;
-			productName = SwinjectAutoregistration;
+			package = 5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
