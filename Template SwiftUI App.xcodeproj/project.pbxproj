@@ -21,8 +21,8 @@
 		57D19C1F26C65FD3009BF80F /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1D26C65FD3009BF80F /* Routing.swift */; };
 		57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */; };
 		57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */; };
-		57D19C2426C6AD13009BF80F /* PreviewTemplateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2326C6AD13009BF80F /* PreviewTemplateRouter.swift */; };
-		57D19C2526C6AD13009BF80F /* PreviewTemplateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2326C6AD13009BF80F /* PreviewTemplateRouter.swift */; };
+		57D19C2426C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2326C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift */; };
+		57D19C2526C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2326C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift */; };
 		57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED1D6626C55787002964F9 /* PreviewAssembler.swift */; };
 		57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED1D6626C55787002964F9 /* PreviewAssembler.swift */; };
 		57F4EC0726C6DC5A00C2214D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0526C6DC5A00C2214D /* Images.xcassets */; };
@@ -35,8 +35,8 @@
 		57F7023126C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */; };
 		57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023326C54BAE00583D47 /* TemplateState.swift */; };
 		57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023326C54BAE00583D47 /* TemplateState.swift */; };
-		57F7023826C54BCF00583D47 /* DefaultTemplateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023726C54BCF00583D47 /* DefaultTemplateRouter.swift */; };
-		57F7023926C54BCF00583D47 /* DefaultTemplateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023726C54BCF00583D47 /* DefaultTemplateRouter.swift */; };
+		57F7023826C54BCF00583D47 /* DefaultTemplateRoutesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023726C54BCF00583D47 /* DefaultTemplateRoutesFactory.swift */; };
+		57F7023926C54BCF00583D47 /* DefaultTemplateRoutesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023726C54BCF00583D47 /* DefaultTemplateRoutesFactory.swift */; };
 		57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023A26C54C1600583D47 /* TemplateProtocols.swift */; };
 		57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023A26C54C1600583D47 /* TemplateProtocols.swift */; };
 		57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023D26C54C2400583D47 /* TemplateAssemblies.swift */; };
@@ -72,14 +72,14 @@
 		57D19C1A26C65EE3009BF80F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		57D19C1D26C65FD3009BF80F /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
 		57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateInteractor.swift; sourceTree = "<group>"; };
-		57D19C2326C6AD13009BF80F /* PreviewTemplateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateRouter.swift; sourceTree = "<group>"; };
+		57D19C2326C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateRoutesFactory.swift; sourceTree = "<group>"; };
 		57ED1D6626C55787002964F9 /* PreviewAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAssembler.swift; sourceTree = "<group>"; };
 		57F4EC0526C6DC5A00C2214D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57F4EC0626C6DC5A00C2214D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
 		57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTemplateInteractor.swift; sourceTree = "<group>"; };
 		57F7023326C54BAE00583D47 /* TemplateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateState.swift; sourceTree = "<group>"; };
-		57F7023726C54BCF00583D47 /* DefaultTemplateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTemplateRouter.swift; sourceTree = "<group>"; };
+		57F7023726C54BCF00583D47 /* DefaultTemplateRoutesFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTemplateRoutesFactory.swift; sourceTree = "<group>"; };
 		57F7023A26C54C1600583D47 /* TemplateProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateProtocols.swift; sourceTree = "<group>"; };
 		57F7023D26C54C2400583D47 /* TemplateAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateAssemblies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -250,8 +250,8 @@
 				57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */,
 				57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */,
 				57F7023326C54BAE00583D47 /* TemplateState.swift */,
-				57F7023726C54BCF00583D47 /* DefaultTemplateRouter.swift */,
-				57D19C2326C6AD13009BF80F /* PreviewTemplateRouter.swift */,
+				57F7023726C54BCF00583D47 /* DefaultTemplateRoutesFactory.swift */,
+				57D19C2326C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -434,7 +434,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F7023826C54BCF00583D47 /* DefaultTemplateRouter.swift in Sources */,
+				57F7023826C54BCF00583D47 /* DefaultTemplateRoutesFactory.swift in Sources */,
 				57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */,
@@ -444,7 +444,7 @@
 				57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
 				57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */,
-				57D19C2426C6AD13009BF80F /* PreviewTemplateRouter.swift in Sources */,
+				57D19C2426C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift in Sources */,
 				57D19C1E26C65FD3009BF80F /* Routing.swift in Sources */,
 				57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);
@@ -454,7 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57F7023926C54BCF00583D47 /* DefaultTemplateRouter.swift in Sources */,
+				57F7023926C54BCF00583D47 /* DefaultTemplateRoutesFactory.swift in Sources */,
 				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */,
@@ -464,7 +464,7 @@
 				57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
 				57F7023F26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */,
-				57D19C2526C6AD13009BF80F /* PreviewTemplateRouter.swift in Sources */,
+				57D19C2526C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift in Sources */,
 				57D19C1F26C65FD3009BF80F /* Routing.swift in Sources */,
 				57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);

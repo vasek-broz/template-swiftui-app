@@ -8,7 +8,7 @@ struct DefaultTemplateAssembly: Assembly {
     func assemble(container: Container) {
         container.register(TemplateView.self) { resolver, assembler in
             TemplateView(interactor: resolver.resolve(TemplateInteractable.self)!,
-                         router: resolver.resolve(TemplateRoutable.self,
+                         router: resolver.resolve(TemplateRoutesFactorable.self,
                                                   argument: assembler as Assembler)!,
                          state: resolver.resolve(TemplateState.self)!)
         }
@@ -23,8 +23,8 @@ struct DefaultTemplateAssembly: Assembly {
             TemplateState()
         }
 
-        container.register(TemplateRoutable.self) { _, assembler in
-            DefaultTemplateRouter(assembler: assembler)
+        container.register(TemplateRoutesFactorable.self) { _, assembler in
+            DefaultTemplateRoutesFactory(assembler: assembler)
         }
     }
 }
@@ -34,7 +34,7 @@ struct PreviewTemplateAssembly: Assembly {
     func assemble(container: Container) {
         container.register(TemplateView.self) { resolver in
             return TemplateView(interactor: resolver.resolve(TemplateInteractable.self)!,
-                                router: resolver.resolve(TemplateRoutable.self)!,
+                                router: resolver.resolve(TemplateRoutesFactorable.self)!,
                                 state: resolver.resolve(TemplateState.self)!)
         }
 
@@ -46,8 +46,8 @@ struct PreviewTemplateAssembly: Assembly {
             TemplateState()
         }
 
-        container.register(TemplateRoutable.self) { _ in
-            PreviewTemplateRouter()
+        container.register(TemplateRoutesFactorable.self) { _ in
+            PreviewTemplateRoutesFactory()
         }
     }
 }
