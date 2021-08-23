@@ -16,7 +16,7 @@ struct DefaultTemplateAssembly: Assembly {
         container.register(TemplateInteractable.self) { resolver in
             DefaultTemplateInteractor(state: resolver.resolve(TemplateState.self)!,
                                       appState: resolver.resolve(AppState.self)!,
-                                      routingFlags: resolver.resolve(RoutingFlags.self)!)
+                                      routing: resolver.resolve(Routing.self)!)
         }
         
         container.register(TemplateState.self) { _ in

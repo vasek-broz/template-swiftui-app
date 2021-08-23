@@ -13,7 +13,7 @@ struct TemplateSwiftUIApp: App {
         return WindowGroup {
             templateView
                 .environmentObject(assembler.resolver.resolve(AppState.self)!)
-                .environmentObject(assembler.resolver.resolve(RoutingFlags.self)!)
+                .environmentObject(assembler.resolver.resolve(Routing.self)!)
         }
     }
 }

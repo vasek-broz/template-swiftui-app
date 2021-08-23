@@ -9,7 +9,7 @@ struct TemplateView: View {
     let router: TemplateRoutable
     @ObservedObject var state: TemplateState
     @EnvironmentObject var appState: AppState
-    @EnvironmentObject var routingFlags: RoutingFlags
+    @EnvironmentObject var routing: Routing
     
     var body: some View {
         EmptyView()
@@ -24,7 +24,7 @@ struct TemplateViewPreviewProvider: PreviewProvider {
         let templateView = previewAssembler.resolver.resolve(TemplateView.self)!
         return templateView
             .environmentObject(previewAssembler.resolver.resolve(AppState.self)!)
-            .environmentObject(previewAssembler.resolver.resolve(RoutingFlags.self)!)
+            .environmentObject(previewAssembler.resolver.resolve(Routing.self)!)
     }
 }
 #endif

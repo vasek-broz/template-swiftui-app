@@ -9,8 +9,8 @@ struct AppAssembly: Assembly {
             AppState()
         }.inObjectScope(.container)
         
-        container.register(RoutingFlags.self) {_ in
-            RoutingFlags()
+        container.register(Routing.self) {_ in
+            Routing()
         }.inObjectScope(.container)
     }
 }

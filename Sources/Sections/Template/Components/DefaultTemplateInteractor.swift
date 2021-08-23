@@ -4,7 +4,7 @@
 struct DefaultTemplateInteractor {
     let state: TemplateState
     let appState: AppState
-    let routingFlags: RoutingFlags
+    let routing: Routing
 }
 
 extension DefaultTemplateInteractor: TemplateInteractable {}
