@@ -6,7 +6,7 @@ import SwiftUI
 // MARK: - View -
 struct TemplateView: View {
     let interactor: TemplateInteractable
-    let router: TemplateRoutable
+    let routesFactory: TemplateRoutesFactorable
     @ObservedObject var state: TemplateState
     @EnvironmentObject var appState: AppState
     @EnvironmentObject var routing: Routing
