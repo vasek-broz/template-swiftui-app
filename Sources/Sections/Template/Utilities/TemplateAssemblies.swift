@@ -4,7 +4,7 @@
 import Swinject
 
 // MARK: - Default -
-struct DefaultTemplateAssembly: Assembly {
+struct TemplateAssembly: Assembly {
     func assemble(container: Container) {
         container.register(TemplateView.self) { resolver, assembler in
             TemplateView(interactor: resolver.resolve(TemplateInteractable.self)!,
@@ -14,7 +14,7 @@ struct DefaultTemplateAssembly: Assembly {
         }
         
         container.register(TemplateInteractable.self) { resolver in
-            DefaultTemplateInteractor(state: resolver.resolve(TemplateState.self)!,
+            TemplateInteractor(state: resolver.resolve(TemplateState.self)!,
                                       appState: resolver.resolve(AppState.self)!,
                                       routing: resolver.resolve(Routing.self)!)
         }
@@ -24,7 +24,7 @@ struct DefaultTemplateAssembly: Assembly {
         }
 
         container.register(TemplateRoutesFactorable.self) { _, assembler in
-            DefaultTemplateRoutesFactory(assembler: assembler)
+            TemplateRoutesFactory(assembler: assembler)
         }
     }
 }
