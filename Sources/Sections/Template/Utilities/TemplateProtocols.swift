@@ -4,5 +4,5 @@
 // MARK: - Interactable -
 protocol TemplateInteractable {}
 
-// MARK: - Routable -
+// MARK: - RoutesFactorable -
 protocol TemplateRoutesFactorable {}

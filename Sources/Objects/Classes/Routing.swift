@@ -3,4 +3,12 @@
 
 import Combine
 
-class Routing: ObservableObject {}
+class Routing: ObservableObject {
+    // MARK: - Properties -
+    @Published var initialSection: InitialSection = .template
+    
+    // MARK: - Nested Types -
+    enum InitialSection {
+        case template
+    }
+}

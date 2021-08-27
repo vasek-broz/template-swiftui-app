@@ -3,7 +3,6 @@
 
 import Swinject
 
-// MARK: - Default -
 struct TemplateAssembly: Assembly {
     func assemble(container: Container) {
         container.register(TemplateView.self) { resolver, assembler in
