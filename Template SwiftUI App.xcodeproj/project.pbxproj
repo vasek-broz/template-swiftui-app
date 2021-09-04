@@ -23,6 +23,8 @@
 		57C1B5C326E3C46B00BBF286 /* RootAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5C126E3C46B00BBF286 /* RootAssemblies.swift */; };
 		57C1B5C526E3C47400BBF286 /* RootProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5C426E3C47400BBF286 /* RootProtocols.swift */; };
 		57C1B5C626E3C47400BBF286 /* RootProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5C426E3C47400BBF286 /* RootProtocols.swift */; };
+		57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */; };
+		57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */; };
 		57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C1E26C65FD3009BF80F /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1D26C65FD3009BF80F /* Routing.swift */; };
@@ -81,6 +83,7 @@
 		57C1B5BE26E3C46000BBF286 /* RootChildViewsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootChildViewsFactory.swift; sourceTree = "<group>"; };
 		57C1B5C126E3C46B00BBF286 /* RootAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAssemblies.swift; sourceTree = "<group>"; };
 		57C1B5C426E3C47400BBF286 /* RootProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootProtocols.swift; sourceTree = "<group>"; };
+		57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataWrap.swift; sourceTree = "<group>"; };
 		57D19C1A26C65EE3009BF80F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		57D19C1D26C65FD3009BF80F /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
 		57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateInteractor.swift; sourceTree = "<group>"; };
@@ -192,6 +195,7 @@
 				57273E6026C53B3A0086A7DF /* Sections */,
 				57273E6326C53B7C0086A7DF /* Fetchers */,
 				57273E6226C53B6D0086A7DF /* Entities */,
+				5750290926E3D82C00C2A2D9 /* Styling */,
 				57273E6126C53B410086A7DF /* Utilities */,
 				57DB95B426D790D60077EC4B /* Objects */,
 				57DB95B726D7918F0077EC4B /* Extensions */,
@@ -232,6 +236,13 @@
 			children = (
 			);
 			path = Fetchers;
+			sourceTree = "<group>";
+		};
+		5750290926E3D82C00C2A2D9 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styling;
 			sourceTree = "<group>";
 		};
 		579ECB2726C54820004D006A /* Template */ = {
@@ -312,6 +323,7 @@
 		57DB95B826D791950077EC4B /* Enumerations */ = {
 			isa = PBXGroup;
 			children = (
+				57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */,
 			);
 			path = Enumerations;
 			sourceTree = "<group>";
@@ -516,6 +528,7 @@
 				57F7023826C54BCF00583D47 /* TemplateRoutesFactory.swift in Sources */,
 				57C1B5C526E3C47400BBF286 /* RootProtocols.swift in Sources */,
 				57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */,
+				57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
 				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */,
 				57C1B5BF26E3C46000BBF286 /* RootChildViewsFactory.swift in Sources */,
@@ -540,6 +553,7 @@
 				57F7023926C54BCF00583D47 /* TemplateRoutesFactory.swift in Sources */,
 				57C1B5C626E3C47400BBF286 /* RootProtocols.swift in Sources */,
 				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
+				57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
 				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */,
 				57C1B5C026E3C46000BBF286 /* RootChildViewsFactory.swift in Sources */,
