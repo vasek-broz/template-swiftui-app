@@ -15,6 +15,8 @@
 		57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* TemplateView.swift */; };
 		574775DC26E3D97E00937B40 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 574775DB26E3D97E00937B40 /* Moya */; };
 		574775DE26E3D98E00937B40 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 574775DD26E3D98E00937B40 /* Moya */; };
+		574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
+		574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
 		5790873926C7A2C8007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873826C7A2C8007AB751 /* Swinject */; };
 		5790873B26C7A2D7007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873A26C7A2D7007AB751 /* Swinject */; };
 		57C1B5B626E3C05C00BBF286 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5B526E3C05C00BBF286 /* RootView.swift */; };
@@ -81,6 +83,7 @@
 		57273E3D26C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
 		57273E4326C539D00086A7DF /* Tests (macOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests (macOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57273E4726C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
+		574775DF26E3DA2500937B40 /* MoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaProvider.swift; sourceTree = "<group>"; };
 		57C1B5B526E3C05C00BBF286 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		57C1B5BE26E3C46000BBF286 /* RootChildViewsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootChildViewsFactory.swift; sourceTree = "<group>"; };
 		57C1B5C126E3C46B00BBF286 /* RootAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAssemblies.swift; sourceTree = "<group>"; };
@@ -320,6 +323,7 @@
 		57DB95B726D7918F0077EC4B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				574775DF26E3DA2500937B40 /* MoyaProvider.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -533,6 +537,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F7023826C54BCF00583D47 /* TemplateRoutesFactory.swift in Sources */,
+				574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */,
 				57C1B5C526E3C47400BBF286 /* RootProtocols.swift in Sources */,
 				57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
@@ -558,6 +563,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57F7023926C54BCF00583D47 /* TemplateRoutesFactory.swift in Sources */,
+				574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */,
 				57C1B5C626E3C47400BBF286 /* RootProtocols.swift in Sources */,
 				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
