@@ -8,20 +8,18 @@ import Swinject
 struct TemplateSwiftUIApp: App {
     // MARK: - Properties -
     let assembler = Assembler()
-    @ObservedObject var appState: AppState
-    @ObservedObject var routing: Routing
+    let appState: AppState
+    let routing: Routing
     
     // MARK: - Body -
     var body: some Scene {
-        return WindowGroup {
-            switch routing.initialSection {
-            case .template:
-                getTemplateView()
-                    .environmentObject(appState)
-                    .environmentObject(routing)
-            }
+        WindowGroup {
+            getRootView()
+                .environmentObject(appState)
+                .environmentObject(routing)
         }
     }
+    
     
     // MARK: - Initialiazer -
     init() {
@@ -31,8 +29,8 @@ struct TemplateSwiftUIApp: App {
     }
     
     // MARK: - Methods -
-    func getTemplateView() -> TemplateView {
-        assembler.apply(assembly: TemplateAssembly())
-        return assembler.resolver.resolve(TemplateView.self, argument: assembler)!
+    func getRootView() -> RootView {
+        assembler.apply(assembly: RootAssembly())
+        return assembler.resolver.resolve(RootView.self, argument: assembler)!
     }
 }

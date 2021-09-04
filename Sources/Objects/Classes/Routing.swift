@@ -5,10 +5,14 @@ import Combine
 
 class Routing: ObservableObject {
     // MARK: - Properties -
-    @Published var initialSection: InitialSection = .template
+    @Published var root = Root()
     
     // MARK: - Nested Types -
-    enum InitialSection {
-        case template
+    struct Root {
+        let section = Section.template
+        
+        enum Section {
+            case template
+        }
     }
 }
