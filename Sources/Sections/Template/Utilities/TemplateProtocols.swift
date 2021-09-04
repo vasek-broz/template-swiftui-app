@@ -4,5 +4,5 @@
 // MARK: - Interactable -
 protocol TemplateInteractable {}
 
-// MARK: - RoutesFactorable -
-protocol TemplateRoutesFactorable {}
+// MARK: - ChildViewsFactorable -
+protocol TemplateChildViewsFactorable {}

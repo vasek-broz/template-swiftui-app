@@ -1,10 +1,10 @@
-//  TemplateRoutesFactory.swift
+//  TemplateChildViewsFactory.swift
 //  Created by Václav Brož on 12/8/2021
 
 import Swinject
 
-struct TemplateRoutesFactory {
+struct TemplateChildViewsFactory {
     let assembler: Assembler
 }
 
-extension TemplateRoutesFactory: TemplateRoutesFactorable {}
+extension TemplateChildViewsFactory: TemplateChildViewsFactorable {}

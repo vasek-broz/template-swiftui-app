@@ -1,6 +1,6 @@
-//  PreviewTemplateRoutesFactory.swift
+//  PreviewTemplateChildViewsFactory.swift
 //  Created by Václav Brož on 12/8/2021
 
-struct PreviewTemplateRoutesFactory {}
+struct PreviewTemplateChildViewsFactory {}
 
-extension PreviewTemplateRoutesFactory: TemplateRoutesFactorable {}
+extension PreviewTemplateChildViewsFactory: TemplateChildViewsFactorable {}

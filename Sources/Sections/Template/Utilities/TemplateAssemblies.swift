@@ -7,23 +7,23 @@ struct TemplateAssembly: Assembly {
     func assemble(container: Container) {
         container.register(TemplateView.self) { resolver, assembler in
             TemplateView(interactor: resolver.resolve(TemplateInteractable.self)!,
-                         routesFactory: resolver.resolve(TemplateRoutesFactorable.self,
-                                                  argument: assembler as Assembler)!,
+                         childViewsFactory: resolver.resolve(TemplateChildViewsFactorable.self,
+                                                             argument: assembler as Assembler)!,
                          state: resolver.resolve(TemplateState.self)!)
         }
         
         container.register(TemplateInteractable.self) { resolver in
             TemplateInteractor(state: resolver.resolve(TemplateState.self)!,
-                                      appState: resolver.resolve(AppState.self)!,
-                                      routing: resolver.resolve(Routing.self)!)
+                               appState: resolver.resolve(AppState.self)!,
+                               routing: resolver.resolve(Routing.self)!)
         }
         
         container.register(TemplateState.self) { _ in
             TemplateState()
         }
 
-        container.register(TemplateRoutesFactorable.self) { _, assembler in
-            TemplateRoutesFactory(assembler: assembler)
+        container.register(TemplateChildViewsFactorable.self) { _, assembler in
+            TemplateChildViewsFactory(assembler: assembler)
         }
     }
 }
@@ -33,7 +33,7 @@ struct PreviewTemplateAssembly: Assembly {
     func assemble(container: Container) {
         container.register(TemplateView.self) { resolver in
             return TemplateView(interactor: resolver.resolve(TemplateInteractable.self)!,
-                                routesFactory: resolver.resolve(TemplateRoutesFactorable.self)!,
+                                childViewsFactory: resolver.resolve(TemplateChildViewsFactorable.self)!,
                                 state: resolver.resolve(TemplateState.self)!)
         }
 
@@ -45,8 +45,8 @@ struct PreviewTemplateAssembly: Assembly {
             TemplateState()
         }
 
-        container.register(TemplateRoutesFactorable.self) { _ in
-            PreviewTemplateRoutesFactory()
+        container.register(TemplateChildViewsFactorable.self) { _ in
+            PreviewTemplateChildViewsFactory()
         }
     }
 }
