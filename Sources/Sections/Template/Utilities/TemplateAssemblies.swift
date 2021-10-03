@@ -5,25 +5,19 @@ import Swinject
 
 struct TemplateAssembly: Assembly {
     func assemble(container: Container) {
-        container.register(TemplateView.self) { resolver, assembler in
-            TemplateView(interactor: resolver.resolve(TemplateInteractable.self)!,
-                         childViewsFactory: resolver.resolve(TemplateChildViewsFactorable.self,
-                                                             argument: assembler as Assembler)!,
+        container.register(TemplateView.self) { resolver, router in
+            TemplateView(interactor: resolver.resolve(TemplateInteractable.self, argument: router as TemplateRoutable)!,
                          state: resolver.resolve(TemplateState.self)!)
         }
         
-        container.register(TemplateInteractable.self) { resolver in
-            TemplateInteractor(state: resolver.resolve(TemplateState.self)!,
-                               appState: resolver.resolve(AppState.self)!,
-                               routing: resolver.resolve(Routing.self)!)
+        container.register(TemplateInteractable.self) { resolver, router in
+            TemplateInteractor(router: router,
+                               state: resolver.resolve(TemplateState.self)!,
+                               appState: resolver.resolve(AppState.self)!)
         }
         
         container.register(TemplateState.self) { _ in
             TemplateState()
-        }
-
-        container.register(TemplateChildViewsFactorable.self) { _, assembler in
-            TemplateChildViewsFactory(assembler: assembler)
         }
     }
 }
@@ -33,7 +27,6 @@ struct PreviewTemplateAssembly: Assembly {
     func assemble(container: Container) {
         container.register(TemplateView.self) { resolver in
             return TemplateView(interactor: resolver.resolve(TemplateInteractable.self)!,
-                                childViewsFactory: resolver.resolve(TemplateChildViewsFactorable.self)!,
                                 state: resolver.resolve(TemplateState.self)!)
         }
 
@@ -43,10 +36,6 @@ struct PreviewTemplateAssembly: Assembly {
         
         container.register(TemplateState.self) { _ in
             TemplateState()
-        }
-
-        container.register(TemplateChildViewsFactorable.self) { _ in
-            PreviewTemplateChildViewsFactory()
         }
     }
 }

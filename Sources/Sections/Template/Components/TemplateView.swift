@@ -6,10 +6,8 @@ import SwiftUI
 // MARK: - View -
 struct TemplateView: View {
     let interactor: TemplateInteractable
-    let childViewsFactory: TemplateChildViewsFactorable
-    @ObservedObject var state: TemplateState
+    @StateObject var state: TemplateState
     @EnvironmentObject var appState: AppState
-    @EnvironmentObject var routing: Routing
     
     var body: some View {
         EmptyView()
