@@ -19,8 +19,6 @@
 		57A90276270A0F2C00F266A1 /* TemplateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* TemplateRouter.swift */; };
 		57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
-		57D19C1E26C65FD3009BF80F /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1D26C65FD3009BF80F /* Routing.swift */; };
-		57D19C1F26C65FD3009BF80F /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1D26C65FD3009BF80F /* Routing.swift */; };
 		57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */; };
 		57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */; };
 		57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED1D6626C55787002964F9 /* PreviewAssembler.swift */; };
@@ -69,7 +67,6 @@
 		57273E4726C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
 		57A90274270A0F2C00F266A1 /* TemplateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateRouter.swift; sourceTree = "<group>"; };
 		57D19C1A26C65EE3009BF80F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
-		57D19C1D26C65FD3009BF80F /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
 		57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateInteractor.swift; sourceTree = "<group>"; };
 		57ED1D6626C55787002964F9 /* PreviewAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAssembler.swift; sourceTree = "<group>"; };
 		57F4EC0526C6DC5A00C2214D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -247,7 +244,6 @@
 			isa = PBXGroup;
 			children = (
 				57D19C1A26C65EE3009BF80F /* AppState.swift */,
-				57D19C1D26C65FD3009BF80F /* Routing.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -478,7 +474,6 @@
 				57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
 				57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */,
-				57D19C1E26C65FD3009BF80F /* Routing.swift in Sources */,
 				57A90275270A0F2C00F266A1 /* TemplateRouter.swift in Sources */,
 				57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);
@@ -497,7 +492,6 @@
 				57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
 				57F7023F26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */,
-				57D19C1F26C65FD3009BF80F /* Routing.swift in Sources */,
 				57A90276270A0F2C00F266A1 /* TemplateRouter.swift in Sources */,
 				57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);
