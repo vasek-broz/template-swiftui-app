@@ -22,7 +22,6 @@ struct TemplateViewPreviewProvider: PreviewProvider {
         let templateView = previewAssembler.resolver.resolve(TemplateView.self)!
         return templateView
             .environmentObject(previewAssembler.resolver.resolve(AppState.self)!)
-            .environmentObject(previewAssembler.resolver.resolve(Routing.self)!)
     }
 }
 #endif
