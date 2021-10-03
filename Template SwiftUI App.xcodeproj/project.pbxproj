@@ -221,7 +221,7 @@
 		579ECB2726C54820004D006A /* Template */ = {
 			isa = PBXGroup;
 			children = (
-				57F7022D26C54B4A00583D47 /* Components */,
+				57F7022D26C54B4A00583D47 /* Units */,
 				57F7022E26C54B5600583D47 /* Utilities */,
 			);
 			path = Template;
@@ -280,7 +280,7 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		57F7022D26C54B4A00583D47 /* Components */ = {
+		57F7022D26C54B4A00583D47 /* Units */ = {
 			isa = PBXGroup;
 			children = (
 				57A90274270A0F2C00F266A1 /* TemplateRouter.swift */,
@@ -289,7 +289,7 @@
 				57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */,
 				57F7023326C54BAE00583D47 /* TemplateState.swift */,
 			);
-			path = Components;
+			path = Units;
 			sourceTree = "<group>";
 		};
 		57F7022E26C54B5600583D47 /* Utilities */ = {
