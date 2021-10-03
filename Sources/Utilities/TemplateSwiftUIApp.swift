@@ -7,21 +7,20 @@ import Swinject
 @main
 struct TemplateSwiftUIApp: App {
     // MARK: - Properties -
+    @UIApplicationDelegateAdaptor(Delegate.self) var delegate
     let assembler = Assembler()
-    let appState: AppState
-    
-    // MARK: - Body -
-    var body: some Scene {
-        WindowGroup {
-            TemplateRouter(assembler: assembler)
-                .environmentObject(appState)
-        }
-    }
-    
     
     // MARK: - Initialiazer -
     init() {
         assembler.apply(assembly: AppAssembly())
-        appState = assembler.resolver.resolve(AppState.self)!
     }
+    
+    // MARK: - App Conformance -
+    var body: some Scene {
+        TemplateSwiftUIScene(assembler: assembler,
+                             appState: assembler.resolver.resolve(AppState.self)!)
+    }
+    
+    // MARK: - Nested Types -
+    class Delegate: NSObject, UIApplicationDelegate {}
 }

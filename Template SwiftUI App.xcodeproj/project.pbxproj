@@ -17,6 +17,8 @@
 		5790873B26C7A2D7007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873A26C7A2D7007AB751 /* Swinject */; };
 		57A90275270A0F2C00F266A1 /* TemplateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* TemplateRouter.swift */; };
 		57A90276270A0F2C00F266A1 /* TemplateRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* TemplateRouter.swift */; };
+		57A90278270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */; };
+		57A90279270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */; };
 		57A9027E270A178700F266A1 /* NavigationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A9027D270A178700F266A1 /* NavigationViewModifier.swift */; };
 		57A9027F270A178700F266A1 /* NavigationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A9027D270A178700F266A1 /* NavigationViewModifier.swift */; };
 		57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
@@ -68,6 +70,7 @@
 		57273E4326C539D00086A7DF /* Tests (macOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests (macOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57273E4726C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
 		57A90274270A0F2C00F266A1 /* TemplateRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateRouter.swift; sourceTree = "<group>"; };
+		57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIScene.swift; sourceTree = "<group>"; };
 		57A9027D270A178700F266A1 /* NavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModifier.swift; sourceTree = "<group>"; };
 		57D19C1A26C65EE3009BF80F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateInteractor.swift; sourceTree = "<group>"; };
@@ -199,6 +202,7 @@
 			children = (
 				57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */,
 				57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */,
+				57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */,
 				57ED1D6626C55787002964F9 /* PreviewAssembler.swift */,
 				57A9027D270A178700F266A1 /* NavigationViewModifier.swift */,
 			);
@@ -480,6 +484,7 @@
 				57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */,
 				57A90275270A0F2C00F266A1 /* TemplateRouter.swift in Sources */,
+				57A90278270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
 				57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +504,7 @@
 				57F7023F26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */,
 				57A90276270A0F2C00F266A1 /* TemplateRouter.swift in Sources */,
+				57A90279270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
 				57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
