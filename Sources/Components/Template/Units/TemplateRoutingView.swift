@@ -1,10 +1,10 @@
-//  TemplateRouter.swift
+//  TemplateRoutingView.swift
 //  Created by Václav Brož on 3/10/2021
 
 import SwiftUI
 import Swinject
 
-struct TemplateRouter: View {
+struct TemplateRoutingView: RoutingView {
     let assembler: Assembler
     
     var body: some View {
@@ -13,4 +13,4 @@ struct TemplateRouter: View {
     }
 }
 
-extension TemplateRouter: TemplateRoutable {}
+extension TemplateRoutingView: TemplateRoutable {}
