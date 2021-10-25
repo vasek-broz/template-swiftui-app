@@ -11,20 +11,20 @@ enum StateDataWrap<WrappedData, LoadingData, FailureData, BlankData> {
     case blank(BlankData)
     
     // MARK: - Methods -
-    func mapToView<DataView, LoadingView, FailureView, BlankView>(_ dataView: (WrappedData) -> DataView,
-                                                                  loadingView: (LoadingData) -> LoadingView,
-                                                                  failureView: (FailureData) -> FailureView,
-                                                                  blankView: (BlankData) -> BlankView
-    ) -> AnyView where DataView: View, LoadingView: View, FailureView: View, BlankView: View {
+    @ViewBuilder func mapToView<DataView, LoadingView, FailureView, BlankView>(_ dataView: (WrappedData) -> DataView,
+                                                                               loadingView: (LoadingData) -> LoadingView,
+                                                                               failureView: (FailureData) -> FailureView,
+                                                                               blankView: (BlankData) -> BlankView
+    ) -> some View where DataView: View, LoadingView: View, FailureView: View, BlankView: View {
         switch self {
         case .full(let wrappedData):
-            return AnyView(dataView(wrappedData))
+            dataView(wrappedData)
         case .loading(let loadingData):
-            return AnyView(loadingView(loadingData))
+            loadingView(loadingData)
         case .failure(let failureData):
-            return AnyView(failureView(failureData))
+            failureView(failureData)
         case .blank(let blankData):
-            return AnyView(blankView(blankData))
+            blankView(blankData)
         }
     }
     
@@ -67,97 +67,88 @@ enum StateDataWrap<WrappedData, LoadingData, FailureData, BlankData> {
 }
 
 extension StateDataWrap where LoadingData == Never {
-    func mapToView<DataView, FailureView, BlankView>(_ dataView: (WrappedData) -> DataView,
-                                                     failureView: (FailureData) -> FailureView,
-                                                     blankView: (BlankData) -> BlankView
-    ) -> AnyView where DataView: View, FailureView: View, BlankView: View {
+    @ViewBuilder func mapToView<DataView, FailureView, BlankView>(_ dataView: (WrappedData) -> DataView,
+                                                                  failureView: (FailureData) -> FailureView,
+                                                                  blankView: (BlankData) -> BlankView
+    ) -> some View where DataView: View, FailureView: View, BlankView: View {
         switch self {
         case .full(let wrappedData):
-            return AnyView(dataView(wrappedData))
-        case .loading:
-            return AnyView(EmptyView())
+            dataView(wrappedData)
         case .failure(let failureData):
-            return AnyView(failureView(failureData))
+            failureView(failureData)
         case .blank(let blankData):
-            return AnyView(blankView(blankData))
+            blankView(blankData)
         }
     }
 }
 
 extension StateDataWrap where FailureData == Never {
-    func mapToView<DataView, LoadingView, BlankView>(_ dataView: (WrappedData) -> DataView,
-                                                     loadingView: (LoadingData) -> LoadingView,
-                                                     blankView: (BlankData) -> BlankView
-    ) -> AnyView where DataView: View, LoadingView: View, BlankView: View {
+    @ViewBuilder func mapToView<DataView, LoadingView, BlankView>(_ dataView: (WrappedData) -> DataView,
+                                                                  loadingView: (LoadingData) -> LoadingView,
+                                                                  blankView: (BlankData) -> BlankView
+    ) -> some View where DataView: View, LoadingView: View, BlankView: View {
         switch self {
         case .full(let wrappedData):
-            return AnyView(dataView(wrappedData))
+            dataView(wrappedData)
         case .loading(let loadingData):
-            return AnyView(loadingView(loadingData))
-        case .failure:
-            return AnyView(EmptyView())
+            loadingView(loadingData)
         case .blank(let blankData):
-            return AnyView(blankView(blankData))
+            blankView(blankData)
         }
     }
 }
 
 extension StateDataWrap where BlankData == Never {
-    func mapToView<DataView, LoadingView, FailureView>(_ dataView: (WrappedData) -> DataView,
-                                                       loadingView: (LoadingData) -> LoadingView,
-                                                       failureView: (FailureData) -> FailureView
-    ) -> AnyView where DataView: View, LoadingView: View, FailureView: View {
+    @ViewBuilder func mapToView<DataView, LoadingView, FailureView>(_ dataView: (WrappedData) -> DataView,
+                                                                    loadingView: (LoadingData) -> LoadingView,
+                                                                    failureView: (FailureData) -> FailureView
+    ) -> some View where DataView: View, LoadingView: View, FailureView: View {
         switch self {
         case .full(let wrappedData):
-            return AnyView(dataView(wrappedData))
+            dataView(wrappedData)
         case .loading(let loadingData):
-            return AnyView(loadingView(loadingData))
+            loadingView(loadingData)
         case .failure(let failureData):
-            return AnyView(failureView(failureData))
-        case .blank:
-            return AnyView(EmptyView())
+            failureView(failureData)
         }
     }
 }
 
 extension StateDataWrap where LoadingData == Never, FailureData == Never {
-    func mapToView<DataView, BlankView>(_ dataView: (WrappedData) -> DataView,
-                                        blankView: (BlankData) -> BlankView) -> AnyView where DataView: View, BlankView: View {
+    @ViewBuilder func mapToView<DataView, BlankView>(_ dataView: (WrappedData) -> DataView,
+                                                     blankView: (BlankData) -> BlankView
+    ) -> some View where DataView: View, BlankView: View {
         switch self {
         case .full(let wrappedData):
-            return AnyView(dataView(wrappedData))
+            dataView(wrappedData)
         case .blank(let blankData):
-            return AnyView(blankView(blankData))
-        default:
-            return AnyView(EmptyView())
+            blankView(blankData)
         }
     }
 }
 
 extension StateDataWrap where LoadingData == Never, BlankData == Never {
-    func mapToView<DataView, FailureView>(_ dataView: (WrappedData) -> DataView,
-                                          failureView: (FailureData) -> FailureView) -> AnyView where DataView: View, FailureView: View {
+    @ViewBuilder func mapToView<DataView, FailureView>(_ dataView: (WrappedData) -> DataView,
+                                                       failureView: (FailureData) -> FailureView
+    ) -> some View where DataView: View, FailureView: View {
         switch self {
         case .full(let wrappedData):
-            return AnyView(dataView(wrappedData))
+            dataView(wrappedData)
         case .failure(let failureData):
-            return AnyView(failureView(failureData))
-        default:
-            return AnyView(EmptyView())
+            failureView(failureData)
         }
     }
 }
 
 extension StateDataWrap where FailureData == Never, BlankData == Never {
-    func mapToView<DataView, LoadingView>(_ dataView: (WrappedData) -> DataView,
-                                                     loadingView: (LoadingData) -> LoadingView) -> AnyView where DataView: View, LoadingView: View {
+    @ViewBuilder func mapToView<DataView, LoadingView>(_ dataView: (WrappedData) -> DataView,
+                                                       loadingView: (LoadingData) -> LoadingView
+    ) -> some View where DataView: View, LoadingView: View {
         switch self {
         case .full(let wrappedData):
-            return AnyView(dataView(wrappedData))
+            dataView(wrappedData)
         case .loading(let loadingData):
-            return AnyView(loadingView(loadingData))
-        default:
-            return AnyView(EmptyView())
+            loadingView(loadingData)
         }
     }
 }
