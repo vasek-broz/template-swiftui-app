@@ -29,6 +29,12 @@
 		57C2FAEB27567FA400AB5149 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAE927567FA400AB5149 /* NotificationName.swift */; };
 		57C2FAF027568A0A00AB5149 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */; };
 		57C2FAF127568A0A00AB5149 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */; };
+		57C2FAF327568EBA00AB5149 /* Deeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAF227568EBA00AB5149 /* Deeplink.swift */; };
+		57C2FAF427568EBA00AB5149 /* Deeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAF227568EBA00AB5149 /* Deeplink.swift */; };
+		57C2FAF627568FE700AB5149 /* DeeplinkSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAF527568FE700AB5149 /* DeeplinkSubject.swift */; };
+		57C2FAF727568FE700AB5149 /* DeeplinkSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAF527568FE700AB5149 /* DeeplinkSubject.swift */; };
+		57C2FAFA275690F400AB5149 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAF9275690F400AB5149 /* EnvironmentValues.swift */; };
+		57C2FAFB275690F400AB5149 /* EnvironmentValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAF9275690F400AB5149 /* EnvironmentValues.swift */; };
 		57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */; };
@@ -84,6 +90,9 @@
 		57C2FAE62756778B00AB5149 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		57C2FAE927567FA400AB5149 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 		57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		57C2FAF227568EBA00AB5149 /* Deeplink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deeplink.swift; sourceTree = "<group>"; };
+		57C2FAF527568FE700AB5149 /* DeeplinkSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkSubject.swift; sourceTree = "<group>"; };
+		57C2FAF9275690F400AB5149 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		57D19C1A26C65EE3009BF80F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateInteractor.swift; sourceTree = "<group>"; };
 		57ED1D6626C55787002964F9 /* PreviewAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAssembler.swift; sourceTree = "<group>"; };
@@ -213,6 +222,7 @@
 		57273E6126C53B410086A7DF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				57C2FAF82756906300AB5149 /* EnvironmentKeys */,
 				57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */,
 				57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */,
 				57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */,
@@ -260,6 +270,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		57C2FAF82756906300AB5149 /* EnvironmentKeys */ = {
+			isa = PBXGroup;
+			children = (
+				57C2FAF527568FE700AB5149 /* DeeplinkSubject.swift */,
+			);
+			path = EnvironmentKeys;
+			sourceTree = "<group>";
+		};
 		57DB95B426D790D60077EC4B /* Objects */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +308,7 @@
 				57C2FAE62756778B00AB5149 /* View.swift */,
 				57C2FAE927567FA400AB5149 /* NotificationName.swift */,
 				57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */,
+				57C2FAF9275690F400AB5149 /* EnvironmentValues.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -297,6 +316,7 @@
 		57DB95B826D791950077EC4B /* Enumerations */ = {
 			isa = PBXGroup;
 			children = (
+				57C2FAF227568EBA00AB5149 /* Deeplink.swift */,
 			);
 			path = Enumerations;
 			sourceTree = "<group>";
@@ -506,14 +526,17 @@
 				57A9027E270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
 				57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */,
 				57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
+				57C2FAF627568FE700AB5149 /* DeeplinkSubject.swift in Sources */,
 				57F7023026C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
 				57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
 				57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */,
+				57C2FAFA275690F400AB5149 /* EnvironmentValues.swift in Sources */,
 				57A90275270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */,
 				57A90278270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
 				57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */,
+				57C2FAF327568EBA00AB5149 /* Deeplink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,14 +553,17 @@
 				57A9027F270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
 				57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */,
 				57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
+				57C2FAF727568FE700AB5149 /* DeeplinkSubject.swift in Sources */,
 				57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
 				57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
 				57F7023F26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */,
+				57C2FAFB275690F400AB5149 /* EnvironmentValues.swift in Sources */,
 				57A90276270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */,
 				57A90279270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
 				57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */,
+				57C2FAF427568EBA00AB5149 /* Deeplink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
