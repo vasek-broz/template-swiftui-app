@@ -5,7 +5,6 @@ import SwiftUI
 import Swinject
 
 struct TemplateRoutingView: RoutingView {
-    @EnvironmentObject var routing: Routing
     let assembler: Assembler
     
     var body: some View {

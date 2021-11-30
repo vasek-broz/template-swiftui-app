@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		571C5A8727295D79008B907D /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C5A8627295D79008B907D /* Routing.swift */; };
-		571C5A8827295D79008B907D /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571C5A8627295D79008B907D /* Routing.swift */; };
 		57273E3E26C539D00086A7DF /* DefaultTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E3D26C539D00086A7DF /* DefaultTestCase.swift */; };
 		57273E4826C539D00086A7DF /* DefaultTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E4726C539D00086A7DF /* DefaultTestCase.swift */; };
 		57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */; };
@@ -65,7 +63,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		571C5A8627295D79008B907D /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
 		57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIApp.swift; sourceTree = "<group>"; };
 		57273E2826C539A10086A7DF /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 		57273E2E26C539D00086A7DF /* Template SwiftUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template SwiftUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -267,7 +264,6 @@
 			isa = PBXGroup;
 			children = (
 				57D19C1A26C65EE3009BF80F /* AppState.swift */,
-				571C5A8627295D79008B907D /* Routing.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -494,7 +490,6 @@
 				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A9027E270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
 				57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */,
-				571C5A8727295D79008B907D /* Routing.swift in Sources */,
 				57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57F7023026C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
 				57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */,
@@ -516,7 +511,6 @@
 				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A9027F270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
 				57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */,
-				571C5A8827295D79008B907D /* Routing.swift in Sources */,
 				57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
 				57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */,

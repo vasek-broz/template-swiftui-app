@@ -6,14 +6,12 @@ import Swinject
 
 struct TemplateSwiftUIScene: Scene {
     @Environment(\.scenePhase) private var scenePhase
-    @StateObject var routing: Routing = .init()
     let assembler: Assembler
     @StateObject var appState: AppState
     
     var body: some Scene {
         WindowGroup {
             TemplateRoutingView(assembler: assembler)
-                .environmentObject(routing)
                 .environmentObject(appState)
         }
         .onChange(of: scenePhase) { phase in
