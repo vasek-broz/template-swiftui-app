@@ -27,6 +27,8 @@
 		57C2FAE82756778B00AB5149 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAE62756778B00AB5149 /* View.swift */; };
 		57C2FAEA27567FA400AB5149 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAE927567FA400AB5149 /* NotificationName.swift */; };
 		57C2FAEB27567FA400AB5149 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAE927567FA400AB5149 /* NotificationName.swift */; };
+		57C2FAF027568A0A00AB5149 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */; };
+		57C2FAF127568A0A00AB5149 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */; };
 		57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */; };
@@ -81,6 +83,7 @@
 		57A9027D270A178700F266A1 /* NavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModifier.swift; sourceTree = "<group>"; };
 		57C2FAE62756778B00AB5149 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		57C2FAE927567FA400AB5149 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
 		57D19C1A26C65EE3009BF80F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateInteractor.swift; sourceTree = "<group>"; };
 		57ED1D6626C55787002964F9 /* PreviewAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAssembler.swift; sourceTree = "<group>"; };
@@ -286,6 +289,7 @@
 			children = (
 				57C2FAE62756778B00AB5149 /* View.swift */,
 				57C2FAE927567FA400AB5149 /* NotificationName.swift */,
+				57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -497,6 +501,7 @@
 				57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C2FAEA27567FA400AB5149 /* NotificationName.swift in Sources */,
 				573BFB332726C1A000350EB8 /* RoutingView.swift in Sources */,
+				57C2FAF027568A0A00AB5149 /* NotificationCenter.swift in Sources */,
 				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A9027E270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
 				57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */,
@@ -520,6 +525,7 @@
 				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C2FAEB27567FA400AB5149 /* NotificationName.swift in Sources */,
 				573BFB342726C1A000350EB8 /* RoutingView.swift in Sources */,
+				57C2FAF127568A0A00AB5149 /* NotificationCenter.swift in Sources */,
 				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A9027F270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
 				57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */,
