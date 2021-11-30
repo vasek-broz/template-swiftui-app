@@ -5,12 +5,12 @@ import SwiftUI
 import Swinject
 
 struct TemplateRoutingView: RoutingView {
-    @EnvironmentObject var routing: Routing
     let assembler: Assembler
     
     var body: some View {
         assembler.apply(assembly: TemplateAssembly())
         return assembler.resolver.resolve(TemplateView.self, argument: self as TemplateRoutable)!
+            .observeNotification(name: .dismissTemplate) { _ in }
     }
 }
 
