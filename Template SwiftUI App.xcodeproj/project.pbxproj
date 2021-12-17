@@ -1011,7 +1011,7 @@
 			repositoryURL = "https://github.com/Moya/Moya";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 14.0.0;
+				minimumVersion = 15.0.0;
 			};
 		};
 		5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */ = {
