@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5715C45C2770D2A300A41ED7 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45B2770D2A300A41ED7 /* Cache.swift */; };
+		5715C45D2770D2A300A41ED7 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45B2770D2A300A41ED7 /* Cache.swift */; };
 		57273E3E26C539D00086A7DF /* DefaultTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E3D26C539D00086A7DF /* DefaultTestCase.swift */; };
 		57273E4826C539D00086A7DF /* DefaultTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E4726C539D00086A7DF /* DefaultTestCase.swift */; };
 		57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */; };
@@ -79,6 +81,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5715C45B2770D2A300A41ED7 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIApp.swift; sourceTree = "<group>"; };
 		57273E2826C539A10086A7DF /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 		57273E2E26C539D00086A7DF /* Template SwiftUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template SwiftUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -324,6 +327,7 @@
 			children = (
 				57D19C1A26C65EE3009BF80F /* AppState.swift */,
 				57D19C1D26C65FD3009BF80F /* Routing.swift */,
+				5715C45B2770D2A300A41ED7 /* Cache.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -571,6 +575,7 @@
 				57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */,
 				57D19C2426C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift in Sources */,
+				5715C45C2770D2A300A41ED7 /* Cache.swift in Sources */,
 				57D19C1E26C65FD3009BF80F /* Routing.swift in Sources */,
 				57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);
@@ -591,6 +596,7 @@
 				57A554BC276C6E5A00180021 /* Targetable.swift in Sources */,
 				57C1B5C026E3C46000BBF286 /* RootChildViewsFactory.swift in Sources */,
 				57C1B5B726E3C05C00BBF286 /* RootView.swift in Sources */,
+				571469952771CFB3009B4ABC /* CachingAssembly.swift in Sources */,
 				57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
 				57C1B5C326E3C46B00BBF286 /* RootAssemblies.swift in Sources */,
@@ -599,6 +605,7 @@
 				57F7023F26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */,
 				57D19C2526C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift in Sources */,
+				5715C45D2770D2A300A41ED7 /* Cache.swift in Sources */,
 				57D19C1F26C65FD3009BF80F /* Routing.swift in Sources */,
 				57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */,
 			);
