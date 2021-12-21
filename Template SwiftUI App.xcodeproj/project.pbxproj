@@ -19,6 +19,10 @@
 		574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
 		5790873926C7A2C8007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873826C7A2C8007AB751 /* Swinject */; };
 		5790873B26C7A2D7007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873A26C7A2D7007AB751 /* Swinject */; };
+		57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
+		57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
+		57A554BB276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
+		57A554BC276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
 		57C1B5B626E3C05C00BBF286 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5B526E3C05C00BBF286 /* RootView.swift */; };
 		57C1B5B726E3C05C00BBF286 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5B526E3C05C00BBF286 /* RootView.swift */; };
 		57C1B5BF26E3C46000BBF286 /* RootChildViewsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5BE26E3C46000BBF286 /* RootChildViewsFactory.swift */; };
@@ -84,6 +88,8 @@
 		57273E4326C539D00086A7DF /* Tests (macOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests (macOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57273E4726C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
 		574775DF26E3DA2500937B40 /* MoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaProvider.swift; sourceTree = "<group>"; };
+		57A554B7276C6D8E00180021 /* TemplateTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTarget.swift; sourceTree = "<group>"; };
+		57A554BA276C6E5A00180021 /* Targetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targetable.swift; sourceTree = "<group>"; };
 		57C1B5B526E3C05C00BBF286 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		57C1B5BE26E3C46000BBF286 /* RootChildViewsFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootChildViewsFactory.swift; sourceTree = "<group>"; };
 		57C1B5C126E3C46B00BBF286 /* RootAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootAssemblies.swift; sourceTree = "<group>"; };
@@ -224,6 +230,7 @@
 		57273E6126C53B410086A7DF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				57A554B6276C6D7000180021 /* Targets */,
 				57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */,
 				57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */,
 				57ED1D6626C55787002964F9 /* PreviewAssembler.swift */,
@@ -266,6 +273,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57A554B6276C6D7000180021 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				57A554B7276C6D8E00180021 /* TemplateTarget.swift */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 		57C1B5B226E3C03400BBF286 /* Root */ = {
@@ -339,6 +354,7 @@
 		57DB95B926D7919C0077EC4B /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				57A554BA276C6E5A00180021 /* Targetable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -542,7 +558,9 @@
 				57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
 				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
+				57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */,
 				57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */,
+				57A554BB276C6E5A00180021 /* Targetable.swift in Sources */,
 				57C1B5BF26E3C46000BBF286 /* RootChildViewsFactory.swift in Sources */,
 				57C1B5B626E3C05C00BBF286 /* RootView.swift in Sources */,
 				57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
@@ -568,7 +586,9 @@
 				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
 				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
+				57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */,
 				57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */,
+				57A554BC276C6E5A00180021 /* Targetable.swift in Sources */,
 				57C1B5C026E3C46000BBF286 /* RootChildViewsFactory.swift in Sources */,
 				57C1B5B726E3C05C00BBF286 /* RootView.swift in Sources */,
 				57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
