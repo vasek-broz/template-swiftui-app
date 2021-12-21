@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5715C4592770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C4582770B54400A41ED7 /* TargetNetworkingProvider.swift */; };
+		5715C45A2770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C4582770B54400A41ED7 /* TargetNetworkingProvider.swift */; };
 		5715C45C2770D2A300A41ED7 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45B2770D2A300A41ED7 /* Cache.swift */; };
 		5715C45D2770D2A300A41ED7 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45B2770D2A300A41ED7 /* Cache.swift */; };
+		5715C45F2770E4BD00A41ED7 /* Pluginable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45E2770E4BD00A41ED7 /* Pluginable.swift */; };
+		5715C4602770E4BD00A41ED7 /* Pluginable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45E2770E4BD00A41ED7 /* Pluginable.swift */; };
 		57273E3E26C539D00086A7DF /* DefaultTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E3D26C539D00086A7DF /* DefaultTestCase.swift */; };
 		57273E4826C539D00086A7DF /* DefaultTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E4726C539D00086A7DF /* DefaultTestCase.swift */; };
 		57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */; };
@@ -81,7 +85,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5715C4582770B54400A41ED7 /* TargetNetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetNetworkingProvider.swift; sourceTree = "<group>"; };
 		5715C45B2770D2A300A41ED7 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		5715C45E2770E4BD00A41ED7 /* Pluginable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pluginable.swift; sourceTree = "<group>"; };
 		57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIApp.swift; sourceTree = "<group>"; };
 		57273E2826C539A10086A7DF /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 		57273E2E26C539D00086A7DF /* Template SwiftUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template SwiftUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +243,7 @@
 				57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */,
 				57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */,
 				57ED1D6626C55787002964F9 /* PreviewAssembler.swift */,
+				5715C45E2770E4BD00A41ED7 /* Pluginable.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -335,6 +342,7 @@
 		57DB95B626D7911B0077EC4B /* Structures */ = {
 			isa = PBXGroup;
 			children = (
+				5715C4582770B54400A41ED7 /* TargetNetworkingProvider.swift */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -561,8 +569,10 @@
 				57C1B5C526E3C47400BBF286 /* RootProtocols.swift in Sources */,
 				57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
+				5715C45F2770E4BD00A41ED7 /* Pluginable.swift in Sources */,
 				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */,
+				5715C4592770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */,
 				57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */,
 				57A554BB276C6E5A00180021 /* Targetable.swift in Sources */,
 				57C1B5BF26E3C46000BBF286 /* RootChildViewsFactory.swift in Sources */,
@@ -590,8 +600,10 @@
 				57C1B5C626E3C47400BBF286 /* RootProtocols.swift in Sources */,
 				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
+				5715C4602770E4BD00A41ED7 /* Pluginable.swift in Sources */,
 				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */,
+				5715C45A2770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */,
 				57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */,
 				57A554BC276C6E5A00180021 /* Targetable.swift in Sources */,
 				57C1B5C026E3C46000BBF286 /* RootChildViewsFactory.swift in Sources */,
