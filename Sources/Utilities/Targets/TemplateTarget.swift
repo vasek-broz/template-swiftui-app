@@ -5,7 +5,7 @@ import Foundation
 import Moya
 
 enum TemplateTarget {
-    case template(ignoreCache: Bool)
+    case template
 }
 
 extension TemplateTarget: Targetable {
