@@ -25,6 +25,8 @@
 		5732CBB527720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
 		5732CBC627720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
 		5732CBC727720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
+		5732CBCD27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */; };
+		5732CBCE27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */; };
 		573644A5278D820400C51F4A /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 573644A4278D820400C51F4A /* Moya */; };
 		574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
 		574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
@@ -104,6 +106,7 @@
 		5732CBAB27720859003DF6FE /* Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
 		5732CBB327720A03003DF6FE /* DefaultTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTemplate.swift; sourceTree = "<group>"; };
 		5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateFetchable.swift; sourceTree = "<group>"; };
+		5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFetchersAssembly.swift; sourceTree = "<group>"; };
 		574775DF26E3DA2500937B40 /* MoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaProvider.swift; sourceTree = "<group>"; };
 		57A554B7276C6D8E00180021 /* TemplateTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTarget.swift; sourceTree = "<group>"; };
 		57A554BA276C6E5A00180021 /* Targetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targetable.swift; sourceTree = "<group>"; };
@@ -603,6 +606,7 @@
 				57C1B5C226E3C46B00BBF286 /* RootAssemblies.swift in Sources */,
 				57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
+				5732CBCD27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */,
 				57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */,
 				57D19C2426C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift in Sources */,
@@ -637,6 +641,7 @@
 				57C1B5C326E3C46B00BBF286 /* RootAssemblies.swift in Sources */,
 				57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
+				5732CBCE27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */,
 				57F7023F26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */,
 				57D19C2526C6AD13009BF80F /* PreviewTemplateRoutesFactory.swift in Sources */,
