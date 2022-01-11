@@ -5,12 +5,12 @@ import Foundation
 
 struct DefaultTemplateFetcher {
     let provider: TargetNetworkingProvider<TemplateTarget>
-    let javaScriptObjectNotationDecoder = JSONDecoder()
+    let javascriptObjectNotationDecoder = JSONDecoder()
 }
 
 extension DefaultTemplateFetcher: TemplateFetchable {
     func getTemplate(ignoreCache: Bool) async throws -> Template {
         let response = try await provider.request(.template, ignoreCache: ignoreCache)
-        return try javaScriptObjectNotationDecoder.decode(Template.self, from: response.data)
+        return try javascriptObjectNotationDecoder.decode(Template.self, from: response.data)
     }
 }
