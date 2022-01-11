@@ -7,16 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5715C4592770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C4582770B54400A41ED7 /* TargetNetworkingProvider.swift */; };
+		5715C45A2770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C4582770B54400A41ED7 /* TargetNetworkingProvider.swift */; };
+		5715C45C2770D2A300A41ED7 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45B2770D2A300A41ED7 /* Cache.swift */; };
+		5715C45D2770D2A300A41ED7 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45B2770D2A300A41ED7 /* Cache.swift */; };
+		5715C45F2770E4BD00A41ED7 /* Pluginable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45E2770E4BD00A41ED7 /* Pluginable.swift */; };
+		5715C4602770E4BD00A41ED7 /* Pluginable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5715C45E2770E4BD00A41ED7 /* Pluginable.swift */; };
 		57273E3E26C539D00086A7DF /* DefaultTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E3D26C539D00086A7DF /* DefaultTestCase.swift */; };
 		57273E4826C539D00086A7DF /* DefaultTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E4726C539D00086A7DF /* DefaultTestCase.swift */; };
 		57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */; };
 		57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */; };
 		57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* TemplateView.swift */; };
 		57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* TemplateView.swift */; };
-		573BFB332726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
-		573BFB342726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
+		57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */; };
+		57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */; };
+		57A554BC276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
+		57A554BB276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
+		57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
+		57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
+		574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
+		574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
+		573644A9278D836200C51F4A /* DefaultNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573644A7278D836200C51F4A /* DefaultNetworking.swift */; };
+		573644A8278D836200C51F4A /* DefaultNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573644A7278D836200C51F4A /* DefaultNetworking.swift */; };
+		573644A5278D820400C51F4A /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 573644A4278D820400C51F4A /* Moya */; };
+		5732CBD427720D44003DF6FE /* Caching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBD027720D44003DF6FE /* Caching.swift */; };
+		5732CBD327720D44003DF6FE /* Caching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBD027720D44003DF6FE /* Caching.swift */; };
+		5732CBD227720D44003DF6FE /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCF27720D44003DF6FE /* MockNetworking.swift */; };
+		5732CBD127720D44003DF6FE /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCF27720D44003DF6FE /* MockNetworking.swift */; };
+		5732CBCE27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */; };
+		5732CBCD27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */; };
+		5732CBC727720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
+		5732CBC627720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
+		5732CBB527720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
+		5732CBB427720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
+		5732CBAD27720859003DF6FE /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBAB27720859003DF6FE /* Template.swift */; };
+		5732CBAC27720859003DF6FE /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBAB27720859003DF6FE /* Template.swift */; };
 		5790873926C7A2C8007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873826C7A2C8007AB751 /* Swinject */; };
 		5790873B26C7A2D7007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873A26C7A2D7007AB751 /* Swinject */; };
+		573BFB342726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
+		573BFB332726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
 		57A90275270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */; };
 		57A90276270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */; };
 		57A90278270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */; };
@@ -45,8 +74,8 @@
 		57F4EC0826C6DC5A00C2214D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0526C6DC5A00C2214D /* Images.xcassets */; };
 		57F4EC0926C6DC5A00C2214D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0626C6DC5A00C2214D /* Colors.xcassets */; };
 		57F4EC0A26C6DC5A00C2214D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0626C6DC5A00C2214D /* Colors.xcassets */; };
-		57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */; };
-		57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */; };
+		57F4EC1126C6DDCF00C2214D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* App.swift */; };
+		57F4EC1226C6DDCF00C2214D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* App.swift */; };
 		57F7023026C54B8B00583D47 /* TemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */; };
 		57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */; };
 		57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023326C54BAE00583D47 /* TemplateState.swift */; };
@@ -75,6 +104,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5715C4582770B54400A41ED7 /* TargetNetworkingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetNetworkingProvider.swift; sourceTree = "<group>"; };
+		5715C45B2770D2A300A41ED7 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		5715C45E2770E4BD00A41ED7 /* Pluginable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pluginable.swift; sourceTree = "<group>"; };
 		57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIApp.swift; sourceTree = "<group>"; };
 		57273E2826C539A10086A7DF /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
 		57273E2E26C539D00086A7DF /* Template SwiftUI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Template SwiftUI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,22 +115,33 @@
 		57273E3D26C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
 		57273E4326C539D00086A7DF /* Tests (macOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests (macOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57273E4726C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
-		573BFB322726C1A000350EB8 /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
-		57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateRoutingView.swift; sourceTree = "<group>"; };
-		57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIScene.swift; sourceTree = "<group>"; };
-		57A9027D270A178700F266A1 /* NavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModifier.swift; sourceTree = "<group>"; };
-		57C2FAE62756778B00AB5149 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		57C2FAE927567FA400AB5149 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
-		57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
-		57C2FAF227568EBA00AB5149 /* Deeplink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deeplink.swift; sourceTree = "<group>"; };
-		57C2FAF527568FE700AB5149 /* DeeplinkSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkSubject.swift; sourceTree = "<group>"; };
+		5732CBAB27720859003DF6FE /* Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		5732CBB327720A03003DF6FE /* DefaultTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTemplate.swift; sourceTree = "<group>"; };
+		5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateFetchable.swift; sourceTree = "<group>"; };
+		5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFetchersAssembly.swift; sourceTree = "<group>"; };
+		5732CBCF27720D44003DF6FE /* MockNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworking.swift; sourceTree = "<group>"; };
+		5732CBD027720D44003DF6FE /* Caching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Caching.swift; sourceTree = "<group>"; };
+		573644A7278D836200C51F4A /* DefaultNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworking.swift; sourceTree = "<group>"; };
+		574775DF26E3DA2500937B40 /* MoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaProvider.swift; sourceTree = "<group>"; };
+		57A554B7276C6D8E00180021 /* TemplateTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTarget.swift; sourceTree = "<group>"; };
+		57A554BA276C6E5A00180021 /* Targetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targetable.swift; sourceTree = "<group>"; };
+		57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataWrap.swift; sourceTree = "<group>"; };
 		57C2FAF9275690F400AB5149 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
+		57C2FAF527568FE700AB5149 /* DeeplinkSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkSubject.swift; sourceTree = "<group>"; };
+		57C2FAF227568EBA00AB5149 /* Deeplink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deeplink.swift; sourceTree = "<group>"; };
+		57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		57C2FAE927567FA400AB5149 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		57C2FAE62756778B00AB5149 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		57A9027D270A178700F266A1 /* NavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModifier.swift; sourceTree = "<group>"; };
+		57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIScene.swift; sourceTree = "<group>"; };
+		57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateRoutingView.swift; sourceTree = "<group>"; };
+		573BFB322726C1A000350EB8 /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
 		57D19C1A26C65EE3009BF80F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateInteractor.swift; sourceTree = "<group>"; };
 		57ED1D6626C55787002964F9 /* PreviewAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAssembler.swift; sourceTree = "<group>"; };
 		57F4EC0526C6DC5A00C2214D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57F4EC0626C6DC5A00C2214D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
-		57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAssembly.swift; sourceTree = "<group>"; };
+		57F4EC1026C6DDCF00C2214D /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateInteractor.swift; sourceTree = "<group>"; };
 		57F7023326C54BAE00583D47 /* TemplateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateState.swift; sourceTree = "<group>"; };
 		57F7023A26C54C1600583D47 /* TemplateProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateProtocols.swift; sourceTree = "<group>"; };
@@ -110,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				573644A5278D820400C51F4A /* Moya in Frameworks */,
 				5790873926C7A2C8007AB751 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +245,7 @@
 				57273E6026C53B3A0086A7DF /* Components */,
 				57273E6326C53B7C0086A7DF /* Fetchers */,
 				57273E6226C53B6D0086A7DF /* Entities */,
+				5750290926E3D82C00C2A2D9 /* Styling */,
 				57A90280270A1A7E00F266A1 /* Views */,
 				57273E6126C53B410086A7DF /* Utilities */,
 				57DB95B426D790D60077EC4B /* Objects */,
@@ -224,11 +269,13 @@
 			children = (
 				57C2FAF82756906300AB5149 /* EnvironmentKeys */,
 				57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */,
-				57F4EC1026C6DDCF00C2214D /* AppAssembly.swift */,
-				57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */,
 				57ED1D6626C55787002964F9 /* PreviewAssembler.swift */,
+				57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */,
 				57A9027D270A178700F266A1 /* NavigationViewModifier.swift */,
 				573BFB322726C1A000350EB8 /* RoutingView.swift */,
+				57A554B6276C6D7000180021 /* Targets */,
+				573644A6278D82C300C51F4A /* Assemblies */,
+				5715C45E2770E4BD00A41ED7 /* Pluginable.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -236,6 +283,7 @@
 		57273E6226C53B6D0086A7DF /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				5732CBAB27720859003DF6FE /* Template.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -243,8 +291,45 @@
 		57273E6326C53B7C0086A7DF /* Fetchers */ = {
 			isa = PBXGroup;
 			children = (
+				5732CBCB27720D33003DF6FE /* Utilities */,
+				5732CBC427720CD5003DF6FE /* Protocols */,
+				5732CBB327720A03003DF6FE /* DefaultTemplate.swift */,
 			);
 			path = Fetchers;
+			sourceTree = "<group>";
+		};
+		5732CBC427720CD5003DF6FE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		5732CBCB27720D33003DF6FE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		573644A6278D82C300C51F4A /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				57F4EC1026C6DDCF00C2214D /* App.swift */,
+				5732CBD027720D44003DF6FE /* Caching.swift */,
+				573644A7278D836200C51F4A /* DefaultNetworking.swift */,
+				5732CBCF27720D44003DF6FE /* MockNetworking.swift */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		5750290926E3D82C00C2A2D9 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Styling;
 			sourceTree = "<group>";
 		};
 		579ECB2726C54820004D006A /* Template */ = {
@@ -261,6 +346,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57A554B6276C6D7000180021 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				57A554B7276C6D8E00180021 /* TemplateTarget.swift */,
+			);
+			path = Targets;
 			sourceTree = "<group>";
 		};
 		57A90280270A1A7E00F266A1 /* Views */ = {
@@ -291,6 +384,7 @@
 			isa = PBXGroup;
 			children = (
 				57D19C1A26C65EE3009BF80F /* AppState.swift */,
+				5715C45B2770D2A300A41ED7 /* Cache.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -298,6 +392,7 @@
 		57DB95B626D7911B0077EC4B /* Structures */ = {
 			isa = PBXGroup;
 			children = (
+				5715C4582770B54400A41ED7 /* TargetNetworkingProvider.swift */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -305,6 +400,7 @@
 		57DB95B726D7918F0077EC4B /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				574775DF26E3DA2500937B40 /* MoyaProvider.swift */,
 				57C2FAE62756778B00AB5149 /* View.swift */,
 				57C2FAE927567FA400AB5149 /* NotificationName.swift */,
 				57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */,
@@ -316,6 +412,7 @@
 		57DB95B826D791950077EC4B /* Enumerations */ = {
 			isa = PBXGroup;
 			children = (
+				57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */,
 				57C2FAF227568EBA00AB5149 /* Deeplink.swift */,
 			);
 			path = Enumerations;
@@ -324,6 +421,7 @@
 		57DB95B926D7919C0077EC4B /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				57A554BA276C6E5A00180021 /* Targetable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -367,6 +465,7 @@
 			name = "Template SwiftUI App (iOS)";
 			packageProductDependencies = (
 				5790873826C7A2C8007AB751 /* Swinject */,
+				573644A4278D820400C51F4A /* Moya */,
 			);
 			productName = "Template SwiftUI App (iOS)";
 			productReference = 57273E2E26C539D00086A7DF /* Template SwiftUI App.app */;
@@ -436,7 +535,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					57273E2D26C539D00086A7DF = {
 						CreatedOnToolsVersion = 13.0;
@@ -460,10 +559,12 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 57273E2126C539A00086A7DF;
 			packageReferences = (
 				5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */,
+				573644A3278D820400C51F4A /* XCRemoteSwiftPackageReference "pure-moya" */,
 			);
 			productRefGroup = 57273E2F26C539D00086A7DF /* Products */;
 			projectDirPath = "";
@@ -517,6 +618,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A554BB276C6E5A00180021 /* Targetable.swift in Sources */,
+				57F4EC1126C6DDCF00C2214D /* App.swift in Sources */,
+				5715C4592770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */,
+				57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */,
+				5732CBB427720A03003DF6FE /* DefaultTemplate.swift in Sources */,
+				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
+				5732CBC627720CD5003DF6FE /* TemplateFetchable.swift in Sources */,
+				5715C45F2770E4BD00A41ED7 /* Pluginable.swift in Sources */,
+				57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
+				574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */,
 				57C2FAE72756778B00AB5149 /* View.swift in Sources */,
 				57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C2FAEA27567FA400AB5149 /* NotificationName.swift in Sources */,
@@ -524,16 +635,21 @@
 				57C2FAF027568A0A00AB5149 /* NotificationCenter.swift in Sources */,
 				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A9027E270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
-				57F4EC1126C6DDCF00C2214D /* AppAssembly.swift in Sources */,
 				57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57C2FAF627568FE700AB5149 /* DeeplinkSubject.swift in Sources */,
 				57F7023026C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
+				5732CBD327720D44003DF6FE /* Caching.swift in Sources */,
+				5732CBAC27720859003DF6FE /* Template.swift in Sources */,
+				5732CBD127720D44003DF6FE /* MockNetworking.swift in Sources */,
 				57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
+				5732CBCD27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */,
+				573644A8278D836200C51F4A /* DefaultNetworking.swift in Sources */,
 				57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */,
-				57C2FAFA275690F400AB5149 /* EnvironmentValues.swift in Sources */,
+				5715C45C2770D2A300A41ED7 /* Cache.swift in Sources */,
 				57A90275270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */,
+				57C2FAFA275690F400AB5149 /* EnvironmentValues.swift in Sources */,
 				57A90278270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
 				57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */,
 				57C2FAF327568EBA00AB5149 /* Deeplink.swift in Sources */,
@@ -544,21 +660,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A554BC276C6E5A00180021 /* Targetable.swift in Sources */,
+				57F4EC1226C6DDCF00C2214D /* App.swift in Sources */,
+				5715C45A2770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */,
+				57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */,
+				5732CBB527720A03003DF6FE /* DefaultTemplate.swift in Sources */,
+				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
+				5732CBC727720CD5003DF6FE /* TemplateFetchable.swift in Sources */,
+				5715C4602770E4BD00A41ED7 /* Pluginable.swift in Sources */,
+				57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
+				574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */,
 				57C2FAE82756778B00AB5149 /* View.swift in Sources */,
-				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57C2FAEB27567FA400AB5149 /* NotificationName.swift in Sources */,
 				573BFB342726C1A000350EB8 /* RoutingView.swift in Sources */,
 				57C2FAF127568A0A00AB5149 /* NotificationCenter.swift in Sources */,
 				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A9027F270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
-				57F4EC1226C6DDCF00C2214D /* AppAssembly.swift in Sources */,
+				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57C2FAF727568FE700AB5149 /* DeeplinkSubject.swift in Sources */,
 				57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
+				5732CBD427720D44003DF6FE /* Caching.swift in Sources */,
+				5732CBAD27720859003DF6FE /* Template.swift in Sources */,
+				5732CBD227720D44003DF6FE /* MockNetworking.swift in Sources */,
 				57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
+				5732CBCE27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */,
+				573644A9278D836200C51F4A /* DefaultNetworking.swift in Sources */,
 				57F7023F26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */,
+				5715C45D2770D2A300A41ED7 /* Cache.swift in Sources */,
 				57C2FAFB275690F400AB5149 /* EnvironmentValues.swift in Sources */,
 				57A90276270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */,
 				57A90279270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
@@ -784,6 +915,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -813,6 +945,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -989,6 +1122,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		573644A3278D820400C51F4A /* XCRemoteSwiftPackageReference "pure-moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vasek-broz/pure-moya";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject";
@@ -1000,6 +1141,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		573644A4278D820400C51F4A /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 573644A3278D820400C51F4A /* XCRemoteSwiftPackageReference "pure-moya" */;
+			productName = Moya;
+		};
 		5790873826C7A2C8007AB751 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */;
