@@ -8,7 +8,7 @@ import Swinject
 struct TemplateRoutingView: RoutingView {
     @Environment(\.deepLinkSubject) var deepLinkSubject: CurrentValueSubject<Deeplink?, Never>
     let assembler: Assembler
-    
+
     var body: some View {
         assembler.apply(assembly: TemplateAssembly())
         return assembler.resolver.resolve(TemplateView.self, argument: self as TemplateRoutable)!
@@ -18,7 +18,7 @@ struct TemplateRoutingView: RoutingView {
                 handleDeeplink(deepLink)
             }
     }
-    
+
     func handleDeeplink(_ deepLink: Deeplink) {}
 }
 

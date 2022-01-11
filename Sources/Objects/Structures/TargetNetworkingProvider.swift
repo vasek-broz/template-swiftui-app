@@ -7,7 +7,7 @@ struct TargetNetworkingProvider<Target: Targetable> {
     // MARK: - Properties
     private let cache: Cache<Target, Response>
     private let moyaProvider: MoyaProvider<Target>
-    
+
     // MARK: - Initialiazer -
     init(cache: Cache<Target, Response>, mockingResponses: Bool = false, plugins: [Pluginable] = []) {
         self.cache = cache
@@ -17,9 +17,9 @@ struct TargetNetworkingProvider<Target: Targetable> {
             moyaProvider = .init(plugins: plugins)
         }
     }
-    
+
     // MARK: - Methods -
-    func request(_ target: Target, ignoreCache: Bool = false) async throws -> Response  {
+    func request(_ target: Target, ignoreCache: Bool = false) async throws -> Response {
         if ignoreCache {
             return try await requestAndCacheResponse(target)
         } else {
@@ -30,7 +30,7 @@ struct TargetNetworkingProvider<Target: Targetable> {
             }
         }
     }
-    
+
     private func requestAndCacheResponse(_ target: Target) async throws -> Response {
         let response = try await moyaProvider.request(target)
         cache[target] = response

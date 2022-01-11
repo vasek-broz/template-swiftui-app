@@ -4,6 +4,6 @@
 import SwiftUI
 import Combine
 
-struct DeeplinkSubjectEnvironmentKey: EnvironmentKey {  
+struct DeeplinkSubjectEnvironmentKey: EnvironmentKey {
     static let defaultValue = CurrentValueSubject<Deeplink?, Never>(nil)
 }

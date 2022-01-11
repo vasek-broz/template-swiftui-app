@@ -4,7 +4,7 @@
 import Moya
 
 extension MoyaProvider {
-    func request(_ target: Target) async throws -> Response  {
+    func request(_ target: Target) async throws -> Response {
         try await withCheckedThrowingContinuation { continuation in
             request(target) { result in
                 continuation.resume(with: result)

@@ -4,7 +4,8 @@
 import SwiftUI
 
 extension View {
-    func observeNotification(name: Notification.Name, onReceivePerform action: @escaping (Notification) -> Void) -> some View {
+    func observeNotification(name: Notification.Name,
+                             onReceivePerform action: @escaping (Notification) -> Void) -> some View {
         onReceive(NotificationCenter.default.publisher(for: name), perform: action)
     }
 }

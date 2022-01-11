@@ -9,8 +9,9 @@ enum StateDataWrap<WrappedData, LoadingData, FailureData, BlankData> {
     case loading(LoadingData)
     case failure(FailureData)
     case blank(BlankData)
-    
+
     // MARK: - Methods -
+    // swiftlint:disable line_length
     @ViewBuilder func mapToView<DataView, LoadingView, FailureView, BlankView>(_ dataView: (WrappedData) -> DataView,
                                                                                loadingView: (LoadingData) -> LoadingView,
                                                                                failureView: (FailureData) -> FailureView,
@@ -27,7 +28,8 @@ enum StateDataWrap<WrappedData, LoadingData, FailureData, BlankData> {
             blankView(blankData)
         }
     }
-    
+    // swiftlint:enable line_length
+
     // MARK: - Computed Properties -
     var wrappedData: WrappedData? {
         switch self {
@@ -37,7 +39,7 @@ enum StateDataWrap<WrappedData, LoadingData, FailureData, BlankData> {
             return nil
         }
     }
-    
+
     var isLoading: Bool {
         switch self {
         case .loading:
@@ -55,7 +57,7 @@ enum StateDataWrap<WrappedData, LoadingData, FailureData, BlankData> {
             return false
         }
     }
-    
+
     var isBlank: Bool {
         switch self {
         case .blank:
