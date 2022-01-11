@@ -6,7 +6,7 @@ import Foundation
 final class Cache<Key: Hashable, Value> {
     // MARK: - Properties -
     private let nextStepCache = NSCache<NextStepCacheKey, NextStepCacheEntry>()
-    
+
     // MARK: - Methods -
     func insert(_ value: Value, for key: Key) {
         let nextStepCacheEntry = NextStepCacheEntry(value: value)
@@ -21,7 +21,7 @@ final class Cache<Key: Hashable, Value> {
     func removeValue(for key: Key) {
         nextStepCache.removeObject(forKey: NextStepCacheKey(key))
     }
-    
+
     // MARK: - Subscript -
     subscript(key: Key) -> Value? {
         get { return value(for: key) }
@@ -34,7 +34,7 @@ final class Cache<Key: Hashable, Value> {
             insert(value, for: key)
         }
     }
-    
+
     // MARK: - Nested Types -
     private final class NextStepCacheKey: NSObject {
         private let key: Key
@@ -51,10 +51,10 @@ final class Cache<Key: Hashable, Value> {
             return nextStepCacheKey.key == key
         }
     }
-    
+
     private final class NextStepCacheEntry {
         let value: Value
-        
+
         init(value: Value) {
             self.value = value
         }

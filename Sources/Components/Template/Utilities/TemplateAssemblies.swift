@@ -9,13 +9,13 @@ struct TemplateAssembly: Assembly {
             TemplateView(interactor: resolver.resolve(TemplateInteractable.self, argument: router as TemplateRoutable)!,
                          state: resolver.resolve(TemplateState.self)!)
         }
-        
+
         container.register(TemplateInteractable.self) { resolver, router in
             TemplateInteractor(router: router,
                                state: resolver.resolve(TemplateState.self)!,
                                appState: resolver.resolve(AppState.self)!)
         }
-        
+
         container.register(TemplateState.self) { _ in
             TemplateState()
         }
@@ -33,7 +33,7 @@ struct PreviewTemplateAssembly: Assembly {
         container.register(TemplateInteractable.self) { _ in
             PreviewTemplateInteractor()
         }
-        
+
         container.register(TemplateState.self) { _ in
             TemplateState()
         }

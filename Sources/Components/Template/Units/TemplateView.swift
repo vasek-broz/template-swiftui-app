@@ -8,7 +8,7 @@ struct TemplateView: View {
     let interactor: TemplateInteractable
     @StateObject var state: TemplateState
     @EnvironmentObject var appState: AppState
-    
+
     var body: some View {
         EmptyView()
     }

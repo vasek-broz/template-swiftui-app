@@ -8,7 +8,7 @@ struct TemplateSwiftUIScene: Scene {
     @Environment(\.scenePhase) private var scenePhase
     let assembler: Assembler
     @StateObject var appState: AppState
-    
+
     var body: some Scene {
         WindowGroup {
             TemplateRoutingView(assembler: assembler)

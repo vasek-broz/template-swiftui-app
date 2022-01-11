@@ -4,7 +4,7 @@
 import Swinject
 
 struct DefaultFetchersAssembly: Assembly {
-    func assemble(container: Container) {        
+    func assemble(container: Container) {
         container.register(TemplateFetchable.self) { resolver in
             DefaultTemplateFetcher(provider: resolver.resolve(TargetNetworkingProvider<TemplateTarget>.self)!)
         }
