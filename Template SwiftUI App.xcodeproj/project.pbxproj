@@ -19,39 +19,41 @@
 		57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */; };
 		57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* TemplateView.swift */; };
 		57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* TemplateView.swift */; };
-		57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */; };
-		57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */; };
-		57A554BC276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
-		57A554BB276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
-		57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
-		57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
-		574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
-		574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
-		573644A9278D836200C51F4A /* DefaultNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573644A7278D836200C51F4A /* DefaultNetworking.swift */; };
-		573644A8278D836200C51F4A /* DefaultNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573644A7278D836200C51F4A /* DefaultNetworking.swift */; };
-		573644A5278D820400C51F4A /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 573644A4278D820400C51F4A /* Moya */; };
-		5732CBD427720D44003DF6FE /* Caching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBD027720D44003DF6FE /* Caching.swift */; };
-		5732CBD327720D44003DF6FE /* Caching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBD027720D44003DF6FE /* Caching.swift */; };
-		5732CBD227720D44003DF6FE /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCF27720D44003DF6FE /* MockNetworking.swift */; };
-		5732CBD127720D44003DF6FE /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCF27720D44003DF6FE /* MockNetworking.swift */; };
-		5732CBCE27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */; };
-		5732CBCD27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */; };
-		5732CBC727720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
-		5732CBC627720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
-		5732CBB527720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
-		5732CBB427720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
-		5732CBAD27720859003DF6FE /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBAB27720859003DF6FE /* Template.swift */; };
 		5732CBAC27720859003DF6FE /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBAB27720859003DF6FE /* Template.swift */; };
+		5732CBAD27720859003DF6FE /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBAB27720859003DF6FE /* Template.swift */; };
+		5732CBB427720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
+		5732CBB527720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
+		5732CBC627720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
+		5732CBC727720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
+		5732CBCD27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */; };
+		5732CBCE27720D33003DF6FE /* DefaultFetchersAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */; };
+		5732CBD127720D44003DF6FE /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCF27720D44003DF6FE /* MockNetworking.swift */; };
+		5732CBD227720D44003DF6FE /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBCF27720D44003DF6FE /* MockNetworking.swift */; };
+		5732CBD327720D44003DF6FE /* Caching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBD027720D44003DF6FE /* Caching.swift */; };
+		5732CBD427720D44003DF6FE /* Caching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBD027720D44003DF6FE /* Caching.swift */; };
+		573644A5278D820400C51F4A /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 573644A4278D820400C51F4A /* Moya */; };
+		573644A8278D836200C51F4A /* DefaultNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573644A7278D836200C51F4A /* DefaultNetworking.swift */; };
+		573644A9278D836200C51F4A /* DefaultNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573644A7278D836200C51F4A /* DefaultNetworking.swift */; };
+		573644AB278D8D1600C51F4A /* TemplateProtocols .swift in Sources */ = {isa = PBXBuildFile; fileRef = 573644AA278D8D1600C51F4A /* TemplateProtocols .swift */; };
+		573644AC278D8D1600C51F4A /* TemplateProtocols .swift in Sources */ = {isa = PBXBuildFile; fileRef = 573644AA278D8D1600C51F4A /* TemplateProtocols .swift */; };
+		573BFB332726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
+		573BFB342726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
+		574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
+		574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
 		5790873926C7A2C8007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873826C7A2C8007AB751 /* Swinject */; };
 		5790873B26C7A2D7007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873A26C7A2D7007AB751 /* Swinject */; };
-		573BFB342726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
-		573BFB332726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
+		57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
+		57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
+		57A554BB276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
+		57A554BC276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
 		57A90275270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */; };
 		57A90276270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */; };
 		57A90278270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */; };
 		57A90279270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */; };
 		57A9027E270A178700F266A1 /* NavigationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A9027D270A178700F266A1 /* NavigationViewModifier.swift */; };
 		57A9027F270A178700F266A1 /* NavigationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A9027D270A178700F266A1 /* NavigationViewModifier.swift */; };
+		57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */; };
+		57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */; };
 		57C2FAE72756778B00AB5149 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAE62756778B00AB5149 /* View.swift */; };
 		57C2FAE82756778B00AB5149 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAE62756778B00AB5149 /* View.swift */; };
 		57C2FAEA27567FA400AB5149 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C2FAE927567FA400AB5149 /* NotificationName.swift */; };
@@ -80,8 +82,6 @@
 		57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */; };
 		57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023326C54BAE00583D47 /* TemplateState.swift */; };
 		57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023326C54BAE00583D47 /* TemplateState.swift */; };
-		57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023A26C54C1600583D47 /* TemplateProtocols.swift */; };
-		57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023A26C54C1600583D47 /* TemplateProtocols.swift */; };
 		57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023D26C54C2400583D47 /* TemplateAssemblies.swift */; };
 		57F7023F26C54C2400583D47 /* TemplateAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023D26C54C2400583D47 /* TemplateAssemblies.swift */; };
 /* End PBXBuildFile section */
@@ -122,20 +122,21 @@
 		5732CBCF27720D44003DF6FE /* MockNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockNetworking.swift; sourceTree = "<group>"; };
 		5732CBD027720D44003DF6FE /* Caching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Caching.swift; sourceTree = "<group>"; };
 		573644A7278D836200C51F4A /* DefaultNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNetworking.swift; sourceTree = "<group>"; };
+		573644AA278D8D1600C51F4A /* TemplateProtocols .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemplateProtocols .swift"; sourceTree = "<group>"; };
+		573BFB322726C1A000350EB8 /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
 		574775DF26E3DA2500937B40 /* MoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaProvider.swift; sourceTree = "<group>"; };
 		57A554B7276C6D8E00180021 /* TemplateTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTarget.swift; sourceTree = "<group>"; };
 		57A554BA276C6E5A00180021 /* Targetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targetable.swift; sourceTree = "<group>"; };
-		57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataWrap.swift; sourceTree = "<group>"; };
-		57C2FAF9275690F400AB5149 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
-		57C2FAF527568FE700AB5149 /* DeeplinkSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkSubject.swift; sourceTree = "<group>"; };
-		57C2FAF227568EBA00AB5149 /* Deeplink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deeplink.swift; sourceTree = "<group>"; };
-		57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
-		57C2FAE927567FA400AB5149 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
-		57C2FAE62756778B00AB5149 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
-		57A9027D270A178700F266A1 /* NavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModifier.swift; sourceTree = "<group>"; };
-		57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIScene.swift; sourceTree = "<group>"; };
 		57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateRoutingView.swift; sourceTree = "<group>"; };
-		573BFB322726C1A000350EB8 /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
+		57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIScene.swift; sourceTree = "<group>"; };
+		57A9027D270A178700F266A1 /* NavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModifier.swift; sourceTree = "<group>"; };
+		57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataWrap.swift; sourceTree = "<group>"; };
+		57C2FAE62756778B00AB5149 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		57C2FAE927567FA400AB5149 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		57C2FAEF27568A0A00AB5149 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		57C2FAF227568EBA00AB5149 /* Deeplink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deeplink.swift; sourceTree = "<group>"; };
+		57C2FAF527568FE700AB5149 /* DeeplinkSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkSubject.swift; sourceTree = "<group>"; };
+		57C2FAF9275690F400AB5149 /* EnvironmentValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValues.swift; sourceTree = "<group>"; };
 		57D19C1A26C65EE3009BF80F /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTemplateInteractor.swift; sourceTree = "<group>"; };
 		57ED1D6626C55787002964F9 /* PreviewAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAssembler.swift; sourceTree = "<group>"; };
@@ -144,7 +145,6 @@
 		57F4EC1026C6DDCF00C2214D /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateInteractor.swift; sourceTree = "<group>"; };
 		57F7023326C54BAE00583D47 /* TemplateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateState.swift; sourceTree = "<group>"; };
-		57F7023A26C54C1600583D47 /* TemplateProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateProtocols.swift; sourceTree = "<group>"; };
 		57F7023D26C54C2400583D47 /* TemplateAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateAssemblies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -267,14 +267,14 @@
 		57273E6126C53B410086A7DF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				573644A6278D82C300C51F4A /* Assemblies */,
+				57A554B6276C6D7000180021 /* Targets */,
 				57C2FAF82756906300AB5149 /* EnvironmentKeys */,
 				57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */,
 				57ED1D6626C55787002964F9 /* PreviewAssembler.swift */,
 				57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */,
 				57A9027D270A178700F266A1 /* NavigationViewModifier.swift */,
 				573BFB322726C1A000350EB8 /* RoutingView.swift */,
-				57A554B6276C6D7000180021 /* Targets */,
-				573644A6278D82C300C51F4A /* Assemblies */,
 				5715C45E2770E4BD00A41ED7 /* Pluginable.swift */,
 			);
 			path = Utilities;
@@ -441,8 +441,8 @@
 		57F7022E26C54B5600583D47 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				57F7023A26C54C1600583D47 /* TemplateProtocols.swift */,
 				57F7023D26C54C2400583D47 /* TemplateAssemblies.swift */,
+				573644AA278D8D1600C51F4A /* TemplateProtocols .swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -623,7 +623,6 @@
 				5715C4592770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */,
 				57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */,
 				5732CBB427720A03003DF6FE /* DefaultTemplate.swift in Sources */,
-				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				5732CBC627720CD5003DF6FE /* TemplateFetchable.swift in Sources */,
 				5715C45F2770E4BD00A41ED7 /* Pluginable.swift in Sources */,
 				57C1B5CB26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
@@ -633,7 +632,6 @@
 				57C2FAEA27567FA400AB5149 /* NotificationName.swift in Sources */,
 				573BFB332726C1A000350EB8 /* RoutingView.swift in Sources */,
 				57C2FAF027568A0A00AB5149 /* NotificationCenter.swift in Sources */,
-				57F7023B26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A9027E270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
 				57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57C2FAF627568FE700AB5149 /* DeeplinkSubject.swift in Sources */,
@@ -652,6 +650,7 @@
 				57C2FAFA275690F400AB5149 /* EnvironmentValues.swift in Sources */,
 				57A90278270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
 				57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */,
+				573644AB278D8D1600C51F4A /* TemplateProtocols .swift in Sources */,
 				57C2FAF327568EBA00AB5149 /* Deeplink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,7 +664,6 @@
 				5715C45A2770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */,
 				57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */,
 				5732CBB527720A03003DF6FE /* DefaultTemplate.swift in Sources */,
-				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				5732CBC727720CD5003DF6FE /* TemplateFetchable.swift in Sources */,
 				5715C4602770E4BD00A41ED7 /* Pluginable.swift in Sources */,
 				57C1B5CC26E3CE5200BBF286 /* StateDataWrap.swift in Sources */,
@@ -674,7 +672,6 @@
 				57C2FAEB27567FA400AB5149 /* NotificationName.swift in Sources */,
 				573BFB342726C1A000350EB8 /* RoutingView.swift in Sources */,
 				57C2FAF127568A0A00AB5149 /* NotificationCenter.swift in Sources */,
-				57F7023C26C54C1600583D47 /* TemplateProtocols.swift in Sources */,
 				57A9027F270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
 				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
@@ -694,6 +691,7 @@
 				57A90276270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */,
 				57A90279270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
 				57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */,
+				573644AC278D8D1600C51F4A /* TemplateProtocols .swift in Sources */,
 				57C2FAF427568EBA00AB5149 /* Deeplink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
