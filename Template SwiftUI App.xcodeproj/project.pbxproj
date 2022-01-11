@@ -25,8 +25,7 @@
 		5732CBB527720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
 		5732CBC627720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
 		5732CBC727720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
-		574775DC26E3D97E00937B40 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 574775DB26E3D97E00937B40 /* Moya */; };
-		574775DE26E3D98E00937B40 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 574775DD26E3D98E00937B40 /* Moya */; };
+		573644A5278D820400C51F4A /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 573644A4278D820400C51F4A /* Moya */; };
 		574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
 		574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
 		5790873926C7A2C8007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873826C7A2C8007AB751 /* Swinject */; };
@@ -133,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574775DC26E3D97E00937B40 /* Moya in Frameworks */,
+				573644A5278D820400C51F4A /* Moya in Frameworks */,
 				5790873926C7A2C8007AB751 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,7 +141,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574775DE26E3D98E00937B40 /* Moya in Frameworks */,
 				5790873B26C7A2D7007AB751 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,7 +429,7 @@
 			name = "Template SwiftUI App (iOS)";
 			packageProductDependencies = (
 				5790873826C7A2C8007AB751 /* Swinject */,
-				574775DB26E3D97E00937B40 /* Moya */,
+				573644A4278D820400C51F4A /* Moya */,
 			);
 			productName = "Template SwiftUI App (iOS)";
 			productReference = 57273E2E26C539D00086A7DF /* Template SwiftUI App.app */;
@@ -452,7 +450,6 @@
 			name = "Template SwiftUI App (macOS)";
 			packageProductDependencies = (
 				5790873A26C7A2D7007AB751 /* Swinject */,
-				574775DD26E3D98E00937B40 /* Moya */,
 			);
 			productName = "Template SwiftUI App (macOS)";
 			productReference = 57273E3426C539D00086A7DF /* Template SwiftUI App.app */;
@@ -531,7 +528,7 @@
 			mainGroup = 57273E2126C539A00086A7DF;
 			packageReferences = (
 				5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */,
-				574775DA26E3D97E00937B40 /* XCRemoteSwiftPackageReference "Moya" */,
+				573644A3278D820400C51F4A /* XCRemoteSwiftPackageReference "pure-moya" */,
 			);
 			productRefGroup = 57273E2F26C539D00086A7DF /* Products */;
 			projectDirPath = "";
@@ -1073,12 +1070,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		574775DA26E3D97E00937B40 /* XCRemoteSwiftPackageReference "Moya" */ = {
+		573644A3278D820400C51F4A /* XCRemoteSwiftPackageReference "pure-moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Moya/Moya";
+			repositoryURL = "https://github.com/vasek-broz/pure-moya";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 15.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 		5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */ = {
@@ -1092,14 +1089,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		574775DB26E3D97E00937B40 /* Moya */ = {
+		573644A4278D820400C51F4A /* Moya */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 574775DA26E3D97E00937B40 /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = Moya;
-		};
-		574775DD26E3D98E00937B40 /* Moya */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 574775DA26E3D97E00937B40 /* XCRemoteSwiftPackageReference "Moya" */;
+			package = 573644A3278D820400C51F4A /* XCRemoteSwiftPackageReference "pure-moya" */;
 			productName = Moya;
 		};
 		5790873826C7A2C8007AB751 /* Swinject */ = {
