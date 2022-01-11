@@ -455,6 +455,7 @@
 			buildConfigurationList = 57273E5126C539D00086A7DF /* Build configuration list for PBXNativeTarget "Template SwiftUI App (iOS)" */;
 			buildPhases = (
 				57273E2A26C539D00086A7DF /* Sources */,
+				573644AD278D8EA000C51F4A /* SwiftLint */,
 				57273E2B26C539D00086A7DF /* Frameworks */,
 				57273E2C26C539D00086A7DF /* Resources */,
 			);
@@ -476,6 +477,7 @@
 			buildConfigurationList = 57273E5426C539D00086A7DF /* Build configuration list for PBXNativeTarget "Template SwiftUI App (macOS)" */;
 			buildPhases = (
 				57273E3026C539D00086A7DF /* Sources */,
+				573644AE278D8EC200C51F4A /* SwiftLint */,
 				57273E3126C539D00086A7DF /* Frameworks */,
 				57273E3226C539D00086A7DF /* Resources */,
 			);
@@ -612,6 +614,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		573644AD278D8EA000C51F4A /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		573644AE278D8EC200C51F4A /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57273E2A26C539D00086A7DF /* Sources */ = {
