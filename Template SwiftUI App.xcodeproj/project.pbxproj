@@ -44,8 +44,8 @@
 		57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
 		57A554BB276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
 		57A554BC276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
-		57A90275270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */; };
-		57A90276270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */; };
+		57A90275270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift */; };
+		57A90276270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift */; };
 		57A90278270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */; };
 		57A90279270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */; };
 		57A9027E270A178700F266A1 /* NavigationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A9027D270A178700F266A1 /* NavigationViewModifier.swift */; };
@@ -79,8 +79,8 @@
 		57F4EC0A26C6DC5A00C2214D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0626C6DC5A00C2214D /* Colors.xcassets */; };
 		57F4EC1126C6DDCF00C2214D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* App.swift */; };
 		57F4EC1226C6DDCF00C2214D /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F4EC1026C6DDCF00C2214D /* App.swift */; };
-		57F7023026C54B8B00583D47 /* TemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */; };
-		57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */; };
+		57F7023026C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */; };
+		57F7023126C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */; };
 		57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023326C54BAE00583D47 /* TemplateState.swift */; };
 		57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023326C54BAE00583D47 /* TemplateState.swift */; };
 		57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F7023D26C54C2400583D47 /* TemplateAssemblies.swift */; };
@@ -128,7 +128,7 @@
 		574775DF26E3DA2500937B40 /* MoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaProvider.swift; sourceTree = "<group>"; };
 		57A554B7276C6D8E00180021 /* TemplateTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTarget.swift; sourceTree = "<group>"; };
 		57A554BA276C6E5A00180021 /* Targetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targetable.swift; sourceTree = "<group>"; };
-		57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateRoutingView.swift; sourceTree = "<group>"; };
+		57A90274270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTemplateRoutingView.swift; sourceTree = "<group>"; };
 		57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIScene.swift; sourceTree = "<group>"; };
 		57A9027D270A178700F266A1 /* NavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModifier.swift; sourceTree = "<group>"; };
 		57C1B5CA26E3CE5200BBF286 /* StateDataWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDataWrap.swift; sourceTree = "<group>"; };
@@ -144,7 +144,7 @@
 		57F4EC0526C6DC5A00C2214D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		57F4EC0626C6DC5A00C2214D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		57F4EC1026C6DDCF00C2214D /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateInteractor.swift; sourceTree = "<group>"; };
+		57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTemplateInteractor.swift; sourceTree = "<group>"; };
 		57F7023326C54BAE00583D47 /* TemplateState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateState.swift; sourceTree = "<group>"; };
 		57F7023D26C54C2400583D47 /* TemplateAssemblies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateAssemblies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -431,9 +431,9 @@
 		57F7022D26C54B4A00583D47 /* Units */ = {
 			isa = PBXGroup;
 			children = (
-				57A90274270A0F2C00F266A1 /* TemplateRoutingView.swift */,
+				57A90274270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift */,
 				57273E2826C539A10086A7DF /* TemplateView.swift */,
-				57F7022F26C54B8B00583D47 /* TemplateInteractor.swift */,
+				57F7022F26C54B8B00583D47 /* DefaultTemplateInteractor.swift */,
 				57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */,
 				57F7023326C54BAE00583D47 /* TemplateState.swift */,
 			);
@@ -679,7 +679,7 @@
 				57A9027E270A178700F266A1 /* NavigationViewModifier.swift in Sources */,
 				57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57C2FAF627568FE700AB5149 /* DeeplinkSubject.swift in Sources */,
-				57F7023026C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
+				57F7023026C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */,
 				5732CBD327720D44003DF6FE /* Caching.swift in Sources */,
 				5732CBAC27720859003DF6FE /* Template.swift in Sources */,
 				5732CBD127720D44003DF6FE /* MockNetworking.swift in Sources */,
@@ -690,7 +690,7 @@
 				57F7023E26C54C2400583D47 /* TemplateAssemblies.swift in Sources */,
 				57D19C1B26C65EE3009BF80F /* AppState.swift in Sources */,
 				5715C45C2770D2A300A41ED7 /* Cache.swift in Sources */,
-				57A90275270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */,
+				57A90275270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift in Sources */,
 				57C2FAFA275690F400AB5149 /* EnvironmentValues.swift in Sources */,
 				57A90278270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
 				57F7023426C54BAE00583D47 /* TemplateState.swift in Sources */,
@@ -720,7 +720,7 @@
 				57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */,
 				57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */,
 				57C2FAF727568FE700AB5149 /* DeeplinkSubject.swift in Sources */,
-				57F7023126C54B8B00583D47 /* TemplateInteractor.swift in Sources */,
+				57F7023126C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */,
 				5732CBD427720D44003DF6FE /* Caching.swift in Sources */,
 				5732CBAD27720859003DF6FE /* Template.swift in Sources */,
 				5732CBD227720D44003DF6FE /* MockNetworking.swift in Sources */,
@@ -732,7 +732,7 @@
 				57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */,
 				5715C45D2770D2A300A41ED7 /* Cache.swift in Sources */,
 				57C2FAFB275690F400AB5149 /* EnvironmentValues.swift in Sources */,
-				57A90276270A0F2C00F266A1 /* TemplateRoutingView.swift in Sources */,
+				57A90276270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift in Sources */,
 				57A90279270A16EA00F266A1 /* TemplateSwiftUIScene.swift in Sources */,
 				57F7023526C54BAE00583D47 /* TemplateState.swift in Sources */,
 				573644AC278D8D1600C51F4A /* TemplateProtocols .swift in Sources */,

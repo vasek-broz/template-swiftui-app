@@ -11,7 +11,7 @@ struct TemplateAssembly: Assembly {
         }
 
         container.register(TemplateInteractable.self) { resolver, router in
-            TemplateInteractor(router: router,
+            DefaultTemplateInteractor(router: router,
                                state: resolver.resolve(TemplateState.self)!,
                                appState: resolver.resolve(AppState.self)!)
         }

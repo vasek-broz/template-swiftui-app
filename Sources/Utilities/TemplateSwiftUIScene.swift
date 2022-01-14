@@ -11,7 +11,7 @@ struct TemplateSwiftUIScene: Scene {
 
     var body: some Scene {
         WindowGroup {
-            TemplateRoutingView(assembler: assembler)
+            DefaultTemplateRoutingView(assembler: assembler)
                 .environmentObject(appState)
         }
         .onChange(of: scenePhase) { phase in

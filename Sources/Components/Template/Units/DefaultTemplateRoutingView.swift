@@ -1,11 +1,11 @@
-//  TemplateRoutingView.swift
+//  DefaultTemplateRoutingView.swift
 //  Created by Václav Brož on 3/10/2021
 
 import SwiftUI
 import Combine
 import Swinject
 
-struct TemplateRoutingView: RoutingView {
+struct DefaultTemplateRoutingView: RoutingView {
     @Environment(\.deepLinkSubject) var deepLinkSubject: CurrentValueSubject<Deeplink?, Never>
     let assembler: Assembler
 
@@ -22,4 +22,4 @@ struct TemplateRoutingView: RoutingView {
     func handleDeeplink(_ deepLink: Deeplink) {}
 }
 
-extension TemplateRoutingView: TemplateRoutable {}
+extension DefaultTemplateRoutingView: TemplateRoutable {}
