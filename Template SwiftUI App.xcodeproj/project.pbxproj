@@ -40,8 +40,6 @@
 		573BFB342726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
 		574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
 		574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
-		5790873926C7A2C8007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873826C7A2C8007AB751 /* Swinject */; };
-		5790873B26C7A2D7007AB751 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5790873A26C7A2D7007AB751 /* Swinject */; };
 		57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
 		57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
 		57A554BB276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
@@ -70,6 +68,9 @@
 		57D19C1C26C65EE3009BF80F /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C1A26C65EE3009BF80F /* AppState.swift */; };
 		57D19C2126C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */; };
 		57D19C2226C6AD04009BF80F /* PreviewTemplateInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D19C2026C6AD04009BF80F /* PreviewTemplateInteractor.swift */; };
+		57EA552D278EBE94001088A0 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 57EA552C278EBE94001088A0 /* Swinject */; };
+		57EA5533278EC2B7001088A0 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 57EA5532278EC2B7001088A0 /* Swinject */; };
+		57EA5535278EC2BB001088A0 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 57EA5534278EC2BB001088A0 /* Moya */; };
 		57ED1D6726C55787002964F9 /* PreviewAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED1D6626C55787002964F9 /* PreviewAssembler.swift */; };
 		57ED1D6826C55787002964F9 /* PreviewAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED1D6626C55787002964F9 /* PreviewAssembler.swift */; };
 		57F4EC0726C6DC5A00C2214D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F4EC0526C6DC5A00C2214D /* Images.xcassets */; };
@@ -154,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				573644A5278D820400C51F4A /* Moya in Frameworks */,
-				5790873926C7A2C8007AB751 /* Swinject in Frameworks */,
+				57EA552D278EBE94001088A0 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +163,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5790873B26C7A2D7007AB751 /* Swinject in Frameworks */,
+				57EA5535278EC2BB001088A0 /* Moya in Frameworks */,
+				57EA5533278EC2B7001088A0 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,8 +467,8 @@
 			);
 			name = "Template SwiftUI App (iOS)";
 			packageProductDependencies = (
-				5790873826C7A2C8007AB751 /* Swinject */,
 				573644A4278D820400C51F4A /* Moya */,
+				57EA552C278EBE94001088A0 /* Swinject */,
 			);
 			productName = "Template SwiftUI App (iOS)";
 			productReference = 57273E2E26C539D00086A7DF /* Template SwiftUI App.app */;
@@ -487,7 +489,8 @@
 			);
 			name = "Template SwiftUI App (macOS)";
 			packageProductDependencies = (
-				5790873A26C7A2D7007AB751 /* Swinject */,
+				57EA5532278EC2B7001088A0 /* Swinject */,
+				57EA5534278EC2BB001088A0 /* Moya */,
 			);
 			productName = "Template SwiftUI App (macOS)";
 			productReference = 57273E3426C539D00086A7DF /* Template SwiftUI App.app */;
@@ -565,8 +568,8 @@
 			);
 			mainGroup = 57273E2126C539A00086A7DF;
 			packageReferences = (
-				5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */,
 				573644A3278D820400C51F4A /* XCRemoteSwiftPackageReference "pure-moya" */,
+				57EA552B278EBE94001088A0 /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			productRefGroup = 57273E2F26C539D00086A7DF /* Products */;
 			projectDirPath = "";
@@ -1169,7 +1172,7 @@
 				kind = branch;
 			};
 		};
-		5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+		57EA552B278EBE94001088A0 /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject";
 			requirement = {
@@ -1185,15 +1188,20 @@
 			package = 573644A3278D820400C51F4A /* XCRemoteSwiftPackageReference "pure-moya" */;
 			productName = Moya;
 		};
-		5790873826C7A2C8007AB751 /* Swinject */ = {
+		57EA552C278EBE94001088A0 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */;
+			package = 57EA552B278EBE94001088A0 /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
 		};
-		5790873A26C7A2D7007AB751 /* Swinject */ = {
+		57EA5532278EC2B7001088A0 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5790873726C7A2C8007AB751 /* XCRemoteSwiftPackageReference "Swinject" */;
+			package = 57EA552B278EBE94001088A0 /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
+		};
+		57EA5534278EC2BB001088A0 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 573644A3278D820400C51F4A /* XCRemoteSwiftPackageReference "pure-moya" */;
+			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
