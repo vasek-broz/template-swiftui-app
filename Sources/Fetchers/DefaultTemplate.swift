@@ -9,8 +9,8 @@ struct DefaultTemplateFetcher {
 }
 
 extension DefaultTemplateFetcher: TemplateFetchable {
-    func getTemplate(ignoreCache: Bool) async throws -> Template {
+    func getTemplate(ignoreCache: Bool) async throws -> String {
         let response = try await provider.request(.template, ignoreCache: ignoreCache)
-        return try javascriptObjectNotationDecoder.decode(Template.self, from: response.data)
+        return try javascriptObjectNotationDecoder.decode(String.self, from: response.data)
     }
 }

@@ -19,8 +19,6 @@
 		57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2726C539A10086A7DF /* TemplateSwiftUIApp.swift */; };
 		57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* TemplateView.swift */; };
 		57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57273E2826C539A10086A7DF /* TemplateView.swift */; };
-		5732CBAC27720859003DF6FE /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBAB27720859003DF6FE /* Template.swift */; };
-		5732CBAD27720859003DF6FE /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBAB27720859003DF6FE /* Template.swift */; };
 		5732CBB427720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
 		5732CBB527720A03003DF6FE /* DefaultTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBB327720A03003DF6FE /* DefaultTemplate.swift */; };
 		5732CBC627720CD5003DF6FE /* TemplateFetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */; };
@@ -40,8 +38,8 @@
 		573BFB342726C1A000350EB8 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573BFB322726C1A000350EB8 /* RoutingView.swift */; };
 		574775E026E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
 		574775E126E3DA2500937B40 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574775DF26E3DA2500937B40 /* MoyaProvider.swift */; };
-		57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
-		57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* TemplateTarget.swift */; };
+		57A554B8276C6D8E00180021 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* Template.swift */; };
+		57A554B9276C6D8E00180021 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554B7276C6D8E00180021 /* Template.swift */; };
 		57A554BB276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
 		57A554BC276C6E5A00180021 /* Targetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A554BA276C6E5A00180021 /* Targetable.swift */; };
 		57A90275270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A90274270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift */; };
@@ -116,7 +114,6 @@
 		57273E3D26C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
 		57273E4326C539D00086A7DF /* Tests (macOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests (macOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57273E4726C539D00086A7DF /* DefaultTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTestCase.swift; sourceTree = "<group>"; };
-		5732CBAB27720859003DF6FE /* Template.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
 		5732CBB327720A03003DF6FE /* DefaultTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTemplate.swift; sourceTree = "<group>"; };
 		5732CBC527720CD5003DF6FE /* TemplateFetchable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplateFetchable.swift; sourceTree = "<group>"; };
 		5732CBCC27720D33003DF6FE /* DefaultFetchersAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFetchersAssembly.swift; sourceTree = "<group>"; };
@@ -126,7 +123,7 @@
 		573644AA278D8D1600C51F4A /* TemplateProtocols .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TemplateProtocols .swift"; sourceTree = "<group>"; };
 		573BFB322726C1A000350EB8 /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
 		574775DF26E3DA2500937B40 /* MoyaProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaProvider.swift; sourceTree = "<group>"; };
-		57A554B7276C6D8E00180021 /* TemplateTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateTarget.swift; sourceTree = "<group>"; };
+		57A554B7276C6D8E00180021 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
 		57A554BA276C6E5A00180021 /* Targetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Targetable.swift; sourceTree = "<group>"; };
 		57A90274270A0F2C00F266A1 /* DefaultTemplateRoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTemplateRoutingView.swift; sourceTree = "<group>"; };
 		57A90277270A16EA00F266A1 /* TemplateSwiftUIScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateSwiftUIScene.swift; sourceTree = "<group>"; };
@@ -285,7 +282,6 @@
 		57273E6226C53B6D0086A7DF /* Entities */ = {
 			isa = PBXGroup;
 			children = (
-				5732CBAB27720859003DF6FE /* Template.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -353,7 +349,7 @@
 		57A554B6276C6D7000180021 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				57A554B7276C6D8E00180021 /* TemplateTarget.swift */,
+				57A554B7276C6D8E00180021 /* Template.swift */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -665,7 +661,7 @@
 				57A554BB276C6E5A00180021 /* Targetable.swift in Sources */,
 				57F4EC1126C6DDCF00C2214D /* App.swift in Sources */,
 				5715C4592770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */,
-				57A554B8276C6D8E00180021 /* TemplateTarget.swift in Sources */,
+				57A554B8276C6D8E00180021 /* Template.swift in Sources */,
 				5732CBB427720A03003DF6FE /* DefaultTemplate.swift in Sources */,
 				5732CBC627720CD5003DF6FE /* TemplateFetchable.swift in Sources */,
 				5715C45F2770E4BD00A41ED7 /* Pluginable.swift in Sources */,
@@ -681,7 +677,6 @@
 				57C2FAF627568FE700AB5149 /* DeeplinkSubject.swift in Sources */,
 				57F7023026C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */,
 				5732CBD327720D44003DF6FE /* Caching.swift in Sources */,
-				5732CBAC27720859003DF6FE /* Template.swift in Sources */,
 				5732CBD127720D44003DF6FE /* MockNetworking.swift in Sources */,
 				57273E4B26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4926C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
@@ -706,7 +701,7 @@
 				57A554BC276C6E5A00180021 /* Targetable.swift in Sources */,
 				57F4EC1226C6DDCF00C2214D /* App.swift in Sources */,
 				5715C45A2770B54400A41ED7 /* TargetNetworkingProvider.swift in Sources */,
-				57A554B9276C6D8E00180021 /* TemplateTarget.swift in Sources */,
+				57A554B9276C6D8E00180021 /* Template.swift in Sources */,
 				5732CBB527720A03003DF6FE /* DefaultTemplate.swift in Sources */,
 				5732CBC727720CD5003DF6FE /* TemplateFetchable.swift in Sources */,
 				5715C4602770E4BD00A41ED7 /* Pluginable.swift in Sources */,
@@ -722,7 +717,6 @@
 				57C2FAF727568FE700AB5149 /* DeeplinkSubject.swift in Sources */,
 				57F7023126C54B8B00583D47 /* DefaultTemplateInteractor.swift in Sources */,
 				5732CBD427720D44003DF6FE /* Caching.swift in Sources */,
-				5732CBAD27720859003DF6FE /* Template.swift in Sources */,
 				5732CBD227720D44003DF6FE /* MockNetworking.swift in Sources */,
 				57273E4C26C539D00086A7DF /* TemplateView.swift in Sources */,
 				57273E4A26C539D00086A7DF /* TemplateSwiftUIApp.swift in Sources */,
